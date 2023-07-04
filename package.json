@@ -1,0 +1,28 @@
+{
+  "name": "metallica-api",
+  "version": "1.0.0",
+  "description": "API for Metallica fans",
+  "repository": "https://github.com/Filipe-Bacof/metallica-api.git",
+  "main": "src/app.js",
+  "scripts": {
+    "dev": "nodemon src/app.js",
+    "start": "node src/app.js",
+    "lint": "eslint src --ext .js --fix"
+  },
+  "keywords": [
+    "metallica"
+  ],
+  "author": "Filipe Bacof",
+  "license": "MIT",
+  "devDependencies": {
+    "@rocketseat/eslint-config": "^1.2.0",
+    "eslint": "^8.44.0",
+    "nodemon": "^2.0.22"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.3.1"
+  }
+}
