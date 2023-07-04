@@ -17,3 +17,5 @@ app.listen(port, () => {
 
 const router = require('./Router.js')
 app.use(router)
+
+require('./config/db.js')
