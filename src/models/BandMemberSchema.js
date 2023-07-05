@@ -34,9 +34,13 @@ const bandMemberSchema = new Schema(
         ref: 'Album',
       },
     ],
+    instruments: {
+      type: [String],
+      required: true,
+    },
   },
   {
-    timestamps: true,
+    timestamps: false,
   },
 )
 

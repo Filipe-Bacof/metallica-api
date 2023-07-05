@@ -35,7 +35,7 @@ const albumSchema = new Schema(
     ],
   },
   {
-    timestamps: true,
+    timestamps: false,
   },
 )
 
