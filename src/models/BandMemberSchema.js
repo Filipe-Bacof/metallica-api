@@ -9,7 +9,6 @@ const bandMemberSchema = new Schema(
     },
     picture: {
       type: String, // URL
-      required: true,
     },
     birthDate: {
       type: Number,
@@ -17,7 +16,6 @@ const bandMemberSchema = new Schema(
     },
     deathDate: {
       type: Number,
-      required: true,
     },
     memberSince: {
       type: Number,
@@ -25,7 +23,6 @@ const bandMemberSchema = new Schema(
     },
     bandLeaving: {
       type: Number,
-      required: true,
     },
     albuns: [
       {
@@ -36,7 +33,6 @@ const bandMemberSchema = new Schema(
     ],
     instruments: {
       type: [String],
-      required: true,
     },
   },
   {
