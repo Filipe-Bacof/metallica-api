@@ -110,7 +110,7 @@ class BandMemberController {
     await BandMemberRepository.delete(id)
 
     return response
-      .status(204)
+      .status(200)
       .json({ message: 'Membro da banda deletado com sucesso.' })
   }
 }
