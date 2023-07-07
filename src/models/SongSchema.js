@@ -29,7 +29,6 @@ const songSchema = new Schema(
     },
     officialMusicVideo: {
       type: String,
-      required: true,
     },
     composers: [
       {

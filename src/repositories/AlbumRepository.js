@@ -22,7 +22,6 @@ class AlbumRepository {
   async create({
     title,
     albumCover,
-
     tracks,
     releaseDate,
     spotifyURL,
@@ -31,7 +30,6 @@ class AlbumRepository {
     const album = new Album({
       title,
       albumCover,
-
       tracks,
       releaseDate,
       spotifyURL,
