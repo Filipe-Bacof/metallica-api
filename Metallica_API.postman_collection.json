@@ -1,0 +1,596 @@
+{
+	"info": {
+		"_postman_id": "605cc2e8-7ba9-4f56-a3d0-69baff154903",
+		"name": "Metallica API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25133769"
+	},
+	"item": [
+		{
+			"name": "Users",
+			"item": [
+				{
+					"name": "Register",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"\",\r\n    \"email\": \"\",\r\n    \"password\": \"\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}/auth/register",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"auth",
+								"register"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"\",\r\n    \"password\": \"\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}/auth/login",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"auth",
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get All",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}/users",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"users"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get One",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}/users/64a548fc97cdbff01d5a3173",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"users",
+								"64a548fc97cdbff01d5a3173"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update User",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Filipe Bacof\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}/users/64a548fc97cdbff01d5a3173",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"users",
+								"64a548fc97cdbff01d5a3173"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete User",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}/users/64a548fc97cdbff01d5a3173",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"users",
+								"64a548fc97cdbff01d5a3173"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Band Members",
+			"item": [
+				{
+					"name": "Get All",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}/member",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"member"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get All with Page",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}/member?page=2",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"member"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get One",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}/member/6469477cf1476f7aa5fe1acf",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"member",
+								"6469477cf1476f7aa5fe1acf"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Band Member",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"Roberto Agustín Miguel Santiago Samuel Trujillo Veracruz\",\r\n    \"birthDate\": -163771200000,\r\n    \"memberSince\": 1054814400000,\r\n    \"instruments\": [\"bass1\", \"bass2\"]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}/member",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"member"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Edit Band Member",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"David Scott Mustaine\",\r\n    \"birthDate\": -261921600000,\r\n    \"memberSince\": 373118400000,\r\n    \"bandLeaving\": 418737600000,\r\n    \"instruments\": [\"guitar1\", \"guitar2\"]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}/member/64a718a4e732dd7a508eae76",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"member",
+								"64a718a4e732dd7a508eae76"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Band Member",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}/member/id",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"member",
+								"id"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Albuns",
+			"item": [
+				{
+					"name": "Get All",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}/album",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"album"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get All with Page",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}/album?page=2",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"album"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get One",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}/album/6469477cf1476f7aa5fe1acf",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"album",
+								"6469477cf1476f7aa5fe1acf"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Album",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\": \"Master of Puppets\",\r\n    \"albumCover\": \"https://upload.wikimedia.org/wikipedia/pt/thumb/4/4d/Master_of_Puppets.jpg/220px-Master_of_Puppets.jpg\",\r\n    \"releaseDate\": 510235200000,\r\n    \"spotifyURL\": \"https://open.spotify.com/intl-pt/album/2Lq2qX3hYhiuPckC8Flj21?si=7e420caa40c14f34\",\r\n    \"composers\": [\"64a71764e732dd7a508eae6a\", \"64a717b3e732dd7a508eae6e\", \"64a71833e732dd7a508eae72\", \"64a71d8ee732dd7a508eae7b\"]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}/album",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"album"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Edit Album",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"David Scott Mustaine\",\r\n    \"birthDate\": -261921600000,\r\n    \"memberSince\": 373118400000,\r\n    \"bandLeaving\": 418737600000,\r\n    \"instruments\": [\"guitar1\", \"guitar2\"]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}/album/64a718a4e732dd7a508eae76",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"album",
+								"64a718a4e732dd7a508eae76"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Album",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}/album/id",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"album",
+								"id"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Songs",
+			"item": [
+				{
+					"name": "Get All",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}/song",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"song"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get All with Page",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}/song?page=2",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"song"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get One",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}/song/6469477cf1476f7aa5fe1acf",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"song",
+								"6469477cf1476f7aa5fe1acf"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Song",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\": \"Damage, Inc.\",\r\n    \"album\": \"64a825eff68d422cccc5af8d\",\r\n    \"discTrack\": 8,\r\n    \"duration\": 332,\r\n    \"spotifyURL\": \"https://open.spotify.com/intl-pt/track/3n7b078PcVbHhUaYhBWIgZ?si=03537f03360f425e\",\r\n    \"composers\": [\"64a71764e732dd7a508eae6a\", \"64a717b3e732dd7a508eae6e\", \"64a71833e732dd7a508eae72\", \"64a71d8ee732dd7a508eae7b\"]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}/song",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"song"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Edit Song",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"David Scott Mustaine\",\r\n    \"birthDate\": -261921600000,\r\n    \"memberSince\": 373118400000,\r\n    \"bandLeaving\": 418737600000,\r\n    \"instruments\": [\"guitar1\", \"guitar2\"]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}/song/64a718a4e732dd7a508eae76",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"song",
+								"64a718a4e732dd7a508eae76"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Song",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}/song/id",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"song",
+								"id"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"auth": {
+		"type": "bearer",
+		"bearer": [
+			{
+				"key": "token",
+				"value": "",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "URL",
+			"value": "https://bacof-metallica-api.cyclic.app"
+		}
+	]
+}
