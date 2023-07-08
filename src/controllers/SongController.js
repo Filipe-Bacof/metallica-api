@@ -4,30 +4,37 @@ class SongController {
   async index(request, response) {
     const page = Number(request.query.page)
 
-    if (page) {
-      const startIndex = (page - 1) * 10
-      const songs = await SongRepository.findSome(startIndex)
+    try {
+      if (page) {
+        const startIndex = (page - 1) * 10
+        const songs = await SongRepository.findSome(startIndex)
+        return response.json(songs)
+      }
+
+      const songs = await SongRepository.findAll()
+
       return response.json(songs)
+    } catch (error) {
+      console.log(error)
     }
-
-    const songs = await SongRepository.findAll()
-
-    return response.json(songs)
   }
 
   async show(request, response) {
     const { id } = request.params
+    try {
+      const song = await SongRepository.findById(id)
 
-    const song = await SongRepository.findById(id)
+      if (!song)
+        return response
+          .status(400)
+          .json({ message: 'Não foi encontrada essa música.' })
 
-    if (!song)
       return response
-        .status(400)
-        .json({ message: 'Não foi encontrada essa música.' })
-
-    return response
-      .status(200)
-      .json({ message: 'Música encontrada com sucesso!', song })
+        .status(200)
+        .json({ message: 'Música encontrada com sucesso!', song })
+    } catch (error) {
+      console.log(error)
+    }
   }
 
   async store(request, response) {
@@ -42,27 +49,31 @@ class SongController {
       composers,
     } = request.body
 
-    const isSongAlreadyRegistered = await SongRepository.findByName(title)
+    try {
+      const isSongAlreadyRegistered = await SongRepository.findByName(title)
 
-    if (isSongAlreadyRegistered)
-      return response
-        .status(422)
-        .json({ message: 'Uma música com este nome já foi cadastrada' })
+      if (isSongAlreadyRegistered)
+        return response
+          .status(422)
+          .json({ message: 'Uma música com este nome já foi cadastrada' })
 
-    const song = await SongRepository.create({
-      title,
-      album,
-      discTrack,
-      duration,
-      ...(lyrics && { lyrics }),
-      spotifyURL,
-      ...(officialMusicVideo && { officialMusicVideo }),
-      ...(composers && { composers }),
-    })
+      const song = await SongRepository.create({
+        title,
+        album,
+        discTrack,
+        duration,
+        ...(lyrics && { lyrics }),
+        spotifyURL,
+        ...(officialMusicVideo && { officialMusicVideo }),
+        ...(composers && { composers }),
+      })
 
-    song.save()
+      song.save()
 
-    return response.status(200).json(song)
+      return response.status(200).json(song)
+    } catch (error) {
+      console.log(error)
+    }
   }
 
   async update(request, response) {
@@ -78,38 +89,48 @@ class SongController {
       composers,
     } = request.body
 
-    const updatedSong = await SongRepository.findByIdAndUpdate(id, {
-      ...(title && { title }),
-      ...(album && { album }),
-      ...(discTrack && { discTrack }),
-      ...(duration && { duration }),
-      ...(lyrics && { lyrics }),
-      ...(spotifyURL && { spotifyURL }),
-      ...(officialMusicVideo && { officialMusicVideo }),
-      ...(composers && { composers }),
-    })
+    try {
+      await SongRepository.findByIdAndUpdate(id, {
+        ...(title && { title }),
+        ...(album && { album }),
+        ...(discTrack && { discTrack }),
+        ...(duration && { duration }),
+        ...(lyrics && { lyrics }),
+        ...(spotifyURL && { spotifyURL }),
+        ...(officialMusicVideo && { officialMusicVideo }),
+        ...(composers && { composers }),
+      })
 
-    return response.status(200).json({
-      message: 'Música atualizada com sucesso.',
-      updatedSong,
-    })
+      const updatedSong = await SongRepository.findById(id)
+
+      return response.status(200).json({
+        message: 'Música atualizada com sucesso.',
+        updatedSong,
+      })
+    } catch (error) {
+      console.log(error)
+    }
   }
 
   async delete(request, response) {
     const { id } = request.params
 
-    const song = await SongRepository.findById(id)
+    try {
+      const song = await SongRepository.findById(id)
 
-    if (!song)
+      if (!song)
+        return response
+          .status(404)
+          .json({ message: 'Esta música não foi encontrada.' })
+
+      await SongRepository.delete(id)
+
       return response
-        .status(404)
-        .json({ message: 'Esta música não foi encontrada.' })
-
-    await SongRepository.delete(id)
-
-    return response
-      .status(200)
-      .json({ message: 'Música deletada com sucesso.' })
+        .status(200)
+        .json({ message: 'Música deletada com sucesso.' })
+    } catch (error) {
+      console.log(error)
+    }
   }
 }
 
