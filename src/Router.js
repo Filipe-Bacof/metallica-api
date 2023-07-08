@@ -31,6 +31,7 @@ router.delete('/album/:id', verifyTokenJwt, AlbumController.delete)
 // Song Routes
 router.get('/song', SongController.index)
 router.get('/song/:id', SongController.show)
+router.get('/random/song', SongController.random)
 router.post('/song', verifyTokenJwt, SongController.store)
 router.put('/song/:id', verifyTokenJwt, SongController.update)
 router.delete('/song/:id', verifyTokenJwt, SongController.delete)

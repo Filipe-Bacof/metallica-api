@@ -1,4 +1,5 @@
 const SongRepository = require('../repositories/SongRepository')
+const shuffleArray = require('../utils/functions')
 
 class SongController {
   async index(request, response) {
@@ -32,6 +33,18 @@ class SongController {
       return response
         .status(200)
         .json({ message: 'Música encontrada com sucesso!', song })
+    } catch (error) {
+      console.log(error)
+    }
+  }
+
+  async random(_request, response) {
+    try {
+      const songs = await SongRepository.findAll()
+
+      const random = shuffleArray(songs)
+
+      return response.status(200).json(random[0])
     } catch (error) {
       console.log(error)
     }
