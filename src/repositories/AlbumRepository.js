@@ -2,19 +2,57 @@ const Album = require('../models/AlbumSchema')
 
 class AlbumRepository {
   async findAll() {
-    const albuns = await Album.find().lean().exec()
+    const albuns = await Album.find()
+      .populate([
+        {
+          path: 'tracks',
+          select: '_id title discTrack duration spotifyURL',
+        },
+        {
+          path: 'composers',
+          select: '_id name',
+        },
+      ])
+      .lean()
+      .exec()
 
     return albuns
   }
 
   async findSome(startIndex) {
-    const albuns = await Album.find().limit(10).skip(startIndex).lean().exec()
+    const albuns = await Album.find()
+      .populate([
+        {
+          path: 'tracks',
+          select: '_id title discTrack duration spotifyURL',
+        },
+        {
+          path: 'composers',
+          select: '_id name',
+        },
+      ])
+      .limit(10)
+      .skip(startIndex)
+      .lean()
+      .exec()
 
     return albuns
   }
 
   async findByName(title) {
-    const album = await Album.findOne({ title }).lean().exec()
+    const album = await Album.findOne({ title })
+      .populate([
+        {
+          path: 'tracks',
+          select: '_id title discTrack duration spotifyURL',
+        },
+        {
+          path: 'composers',
+          select: '_id name',
+        },
+      ])
+      .lean()
+      .exec()
 
     return album
   }
@@ -57,6 +95,16 @@ class AlbumRepository {
         composers,
       },
     )
+      .populate([
+        {
+          path: 'tracks',
+          select: '_id title discTrack duration spotifyURL',
+        },
+        {
+          path: 'composers',
+          select: '_id name',
+        },
+      ])
       .lean()
       .exec()
 
@@ -64,7 +112,19 @@ class AlbumRepository {
   }
 
   async findById(id) {
-    const album = await Album.findOne({ _id: id }).lean().exec()
+    const album = await Album.findOne({ _id: id })
+      .populate([
+        {
+          path: 'tracks',
+          select: '_id title discTrack duration spotifyURL',
+        },
+        {
+          path: 'composers',
+          select: '_id name',
+        },
+      ])
+      .lean()
+      .exec()
 
     return album
   }
