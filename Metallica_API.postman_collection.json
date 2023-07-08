@@ -382,7 +382,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"name\": \"David Scott Mustaine\",\r\n    \"birthDate\": -261921600000,\r\n    \"memberSince\": 373118400000,\r\n    \"bandLeaving\": 418737600000,\r\n    \"instruments\": [\"guitar1\", \"guitar2\"]\r\n}",
+							"raw": "{\r\n    \"tracks\": [\"64a859d239440dd48c524295\", \"64a85a2539440dd48c524299\", \"64a85aac39440dd48c52429d\", \"64a85af639440dd48c5242a1\", \"64a85b7239440dd48c5242a5\", \"64a85bb739440dd48c5242a9\", \"64a85bfc39440dd48c5242ad\", \"64a85c4a39440dd48c5242b1\"]\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -390,13 +390,13 @@
 							}
 						},
 						"url": {
-							"raw": "{{URL}}/album/64a718a4e732dd7a508eae76",
+							"raw": "{{URL}}/album/64a825eff68d422cccc5af8d",
 							"host": [
 								"{{URL}}"
 							],
 							"path": [
 								"album",
-								"64a718a4e732dd7a508eae76"
+								"64a825eff68d422cccc5af8d"
 							]
 						}
 					},
@@ -478,6 +478,24 @@
 							"path": [
 								"song",
 								"6469477cf1476f7aa5fe1acf"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Random",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}/random/song",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"random",
+								"song"
 							]
 						}
 					},
@@ -591,6 +609,11 @@
 		{
 			"key": "URL",
 			"value": "https://bacof-metallica-api.cyclic.app"
+		},
+		{
+			"key": "URL2",
+			"value": "http://localhost:3005",
+			"type": "string"
 		}
 	]
 }
