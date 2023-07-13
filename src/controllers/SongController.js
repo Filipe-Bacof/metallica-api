@@ -1,20 +1,23 @@
 const SongRepository = require('../repositories/SongRepository')
-const shuffleArray = require('../utils/functions')
 
 class SongController {
   async index(request, response) {
     const page = Number(request.query.page)
 
     try {
-      if (page) {
-        const startIndex = (page - 1) * 10
-        const songs = await SongRepository.findSome(startIndex)
-        return response.json(songs)
-      }
-
-      const songs = await SongRepository.findAll()
-
-      return response.json(songs)
+      const startIndex = ((page || 1) - 1) * 3
+      const songs = await SongRepository.findSome(startIndex)
+      return response.json({
+        songs,
+        prev:
+          (Number(page) || 1) > 1
+            ? 'https://bacof-metallica-api.cyclic.app/song?page=' +
+              ((Number(page) || 1) - 1)
+            : null,
+        next:
+          'https://bacof-metallica-api.cyclic.app/song?page=' +
+          ((Number(page) || 1) + 1),
+      })
     } catch (error) {
       console.log(error)
     }
@@ -40,11 +43,9 @@ class SongController {
 
   async random(_request, response) {
     try {
-      const songs = await SongRepository.findAll()
+      const song = await SongRepository.findRandom()
 
-      const random = shuffleArray(songs)
-
-      return response.status(200).json(random[0])
+      return response.status(200).json(song)
     } catch (error) {
       console.log(error)
     }

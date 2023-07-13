@@ -19,6 +19,26 @@ class SongRepository {
     return songs
   }
 
+  async findRandom() {
+    const random = await Song.aggregate([{ $sample: { size: 1 } }])
+
+    const song = await Song.findOne({ _id: random[0]._id })
+      .populate([
+        {
+          path: 'album',
+          select: '_id title albumCover releaseDate spotifyURL',
+        },
+        {
+          path: 'composers',
+          select: '_id name',
+        },
+      ])
+      .lean()
+      .exec()
+
+    return song
+  }
+
   async findSome(startIndex) {
     const songs = await Song.find()
       .populate([
@@ -31,7 +51,7 @@ class SongRepository {
           select: '_id name',
         },
       ])
-      .limit(10)
+      .limit(3)
       .skip(startIndex)
       .lean()
       .exec()
