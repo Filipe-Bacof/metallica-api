@@ -493,6 +493,146 @@
           ]
         }
       ]
+    },
+    {
+      "id": 4,
+      "title": "...And Justice for All",
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b2737c05e69390ab7c628a83cee7",
+      "spotifyURL": "https://open.spotify.com/intl-pt/album/6jZ1z25PyF4Yd3kHxt9rl1",
+      "releaseDate": "1988/09/07",
+      "duration": 3934,
+      "composers": [
+        1,
+        2,
+        3,
+        5,
+        6
+      ],
+      "tracks": [
+        {
+          "id": 27,
+          "discTrack": "Track 1",
+          "title": "Blackened",
+          "duration": 401,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/1odk70HBNbdk4wU0Ja9JR7",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            5
+          ]
+        },
+        {
+          "id": 28,
+          "discTrack": "Track 2",
+          "title": "...And Justice for All",
+          "duration": 587,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/4a47TNOfJ9vbpbmU31wpgT",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "id": 29,
+          "discTrack": "Track 3",
+          "title": "Eye of the Beholder",
+          "duration": 390,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/4oNXsQxJS726q1CALwlIzc",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "id": 30,
+          "discTrack": "Track 4",
+          "title": "One",
+          "duration": 444,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/02xhLoVqpGmOqvolgrwM8w",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2
+          ]
+        },
+        {
+          "id": 31,
+          "discTrack": "Track 5",
+          "title": "The Shortest Straw",
+          "duration": 396,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/4hvo7eCLfhs7dFr0mpk3zi",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2
+          ]
+        },
+        {
+          "id": 32,
+          "discTrack": "Track 6",
+          "title": "Harvester of Sorrow",
+          "duration": 346,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/6qgYe6noMKsElSoPg9yS91",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2
+          ]
+        },
+        {
+          "id": 33,
+          "discTrack": "Track 7",
+          "title": "The Frayed Ends of Sanity",
+          "duration": 464,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/4p4VJmajEO6rh8yVibTRCS",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "id": 34,
+          "discTrack": "Track 8",
+          "title": "To Live Is to Die",
+          "duration": 589,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/0MNwV4sXm2AljohIXBRgpj",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            6
+          ]
+        },
+        {
+          "id": 35,
+          "discTrack": "Track 9",
+          "title": "Dyers Eve",
+          "duration": 313,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/3V3brSzPO4pr4ioNqK61mw",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            3
+          ]
+        }
+      ]
     }
   ]
 }
