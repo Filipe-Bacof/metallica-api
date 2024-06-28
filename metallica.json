@@ -1627,6 +1627,165 @@
           ]
         }
       ]
+    },
+    {
+      "id": 9,
+      "title": "St. Anger",
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b273ee5869b2880109918fc47199",
+      "spotifyURL": "https://open.spotify.com/intl-pt/album/0HKpzK9ZoJ0oVA43E5gewM",
+      "releaseDate": "2003/06/05",
+      "duration": 4908,
+      "composers": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "tracks": [
+        {
+          "id": 102,
+          "discTrack": "Track 1",
+          "title": "Frantic",
+          "duration": 351,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/2J3XzDLjbXkny8qhr33zTh",
+          "officialMusicVideo": null,
+          "composers": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": 103,
+          "discTrack": "Track 2",
+          "title": "St. Anger",
+          "duration": 441,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/5JAnXx5BBES4FEf4d4t4CC",
+          "officialMusicVideo": null,
+          "composers": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": 104,
+          "discTrack": "Track 3",
+          "title": "Some Kind of Monster",
+          "duration": 506,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/4hjTm9cn9ZPwfKnbyW6frn",
+          "officialMusicVideo": null,
+          "composers": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": 105,
+          "discTrack": "Track 4",
+          "title": "Dirty Window",
+          "duration": 324,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/6xFoN6e5B9DTw6aV6yT3KF",
+          "officialMusicVideo": null,
+          "composers": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": 106,
+          "discTrack": "Track 5",
+          "title": "Invisible Kid",
+          "duration": 511,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/105mv6XqVQMEUVfPkIeAQh",
+          "officialMusicVideo": null,
+          "composers": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": 107,
+          "discTrack": "Track 6",
+          "title": "My World",
+          "duration": 345,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/3zG3x7RA9DjR7a9JMNWv1N",
+          "officialMusicVideo": null,
+          "composers": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": 108,
+          "discTrack": "Track 7",
+          "title": "Shoot me Again",
+          "duration": 430,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/6ATqmUzk4xbq3XpVsZMPW5",
+          "officialMusicVideo": null,
+          "composers": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": 109,
+          "discTrack": "Track 8",
+          "title": "Sweet Amber",
+          "duration": 327,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/0nP2Se8dSKsdOkg6XEee60",
+          "officialMusicVideo": null,
+          "composers": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": 110,
+          "discTrack": "Track 9",
+          "title": "The Unnamed Feeling",
+          "duration": 430,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/2lJhUIQR7CYQZD6tyl3aF0",
+          "officialMusicVideo": null,
+          "composers": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": 111,
+          "discTrack": "Track 10",
+          "title": "Purify",
+          "duration": 314,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/7ucFoRbiHn7SOVfHFHRjbE",
+          "officialMusicVideo": null,
+          "composers": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": 112,
+          "discTrack": "Track 11",
+          "title": "All Within my Hands",
+          "duration": 529,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/61MvWKeLK4tjdSuuB8y8B8",
+          "officialMusicVideo": null,
+          "composers": [
+            2,
+            3
+          ]
+        }
+      ]
     }
   ]
 }
