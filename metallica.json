@@ -22,16 +22,6 @@
     },
     {
       "id": 3,
-      "name": "David Scott Mustaine",
-      "artisticName": "Dave Mustaine",
-      "birthDate": "1961/09/13",
-      "deathDate": null,
-      "memberSince": "1982/03/14",
-      "bandDepartureDate": "1983/04/11",
-      "instagram": "https://www.instagram.com/davemustaine/"
-    },
-    {
-      "id": 4,
       "name": "Kirk Lee Hammett",
       "artisticName": "Kirk Hammett",
       "birthDate": "1962/11/18",
@@ -41,14 +31,24 @@
       "instagram": "https://www.instagram.com/kirkhammett/"
     },
     {
-      "id": 5,
-      "name": "Ronald McGovney",
-      "artisticName": "Ron McGovney",
-      "birthDate": "1962/11/02",
+      "id": 4,
+      "name": "Roberto Agustín Miguel Santiago Samuel Trujillo Veracruz",
+      "artisticName": "Robert Trujillo",
+      "birthDate": "1964/10/23",
       "deathDate": null,
-      "memberSince": "1982/03/14",
-      "bandDepartureDate": "1982/11/30",
-      "instagram": "https://www.instagram.com/explore/tags/ronmcgovney/"
+      "memberSince": "2003/06/05",
+      "bandDepartureDate": null,
+      "instagram": "https://www.instagram.com/robtrujillo/"
+    },
+    {
+      "id": 5,
+      "name": "Jason Curtis Newsted",
+      "artisticName": "Jason Newsted",
+      "birthDate": "1963/03/04",
+      "deathDate": null,
+      "memberSince": "1986/11/08",
+      "bandDepartureDate": "2001/01/17",
+      "instagram": "https://www.instagram.com/newsted21/"
     },
     {
       "id": 6,
@@ -62,50 +62,172 @@
     },
     {
       "id": 7,
-      "name": "Jason Curtis Newsted",
-      "artisticName": "Jason Newsted",
-      "birthDate": "1963/03/04",
+      "name": "Ronald McGovney",
+      "artisticName": "Ron McGovney",
+      "birthDate": "1962/11/02",
       "deathDate": null,
-      "memberSince": "1986/11/08",
-      "bandDepartureDate": "2001/01/17",
-      "instagram": "https://www.instagram.com/newsted21/"
+      "memberSince": "1982/03/14",
+      "bandDepartureDate": "1982/11/30",
+      "instagram": "https://www.instagram.com/explore/tags/ronmcgovney/"
     },
     {
       "id": 8,
-      "name": "Roberto Agustín Miguel Santiago Samuel Trujillo Veracruz",
-      "artisticName": "Robert Trujillo",
-      "birthDate": "1964/10/23",
+      "name": "David Scott Mustaine",
+      "artisticName": "Dave Mustaine",
+      "birthDate": "1961/09/13",
       "deathDate": null,
-      "memberSince": "2003/06/05",
-      "bandDepartureDate": null,
-      "instagram": "https://www.instagram.com/robtrujillo/"
+      "memberSince": "1982/03/14",
+      "bandDepartureDate": "1983/04/11",
+      "instagram": "https://www.instagram.com/davemustaine/"
     }
   ],
   "albuns": [
     {
       "id": 1,
-      "title": "kill em all",
-      "albumCover": "URL",
-      "spotifyURL": "URL",
-      "releaseDate": "AAAA/MM/DD",
+      "title": "Kill 'Em All",
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b27320292e6cce666a69ba5a86fb",
+      "spotifyURL": "https://open.spotify.com/intl-pt/album/1aGapZGHBovnmhwqVNI6JZ",
+      "releaseDate": "1983/07/25",
+      "duration": 3078,
       "composers": [
         1,
         2,
         3,
-        4
+        6,
+        8
       ],
       "tracks": [
         {
           "id": 1,
-          "discTrack": "Disc 1 - Track 1",
-          "title": "hit the lights",
-          "duration": 134,
-          "lyrics": "primeiralinha\nsegundalinha",
-          "spotifyURL": "URL",
+          "discTrack": "Track 1",
+          "title": "Hit the Lights",
+          "duration": 255,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/4hh0IO5OHTigfnPTpDleL7",
           "officialMusicVideo": null,
           "composers": [
+            1,
+            2
+          ]
+        },
+        {
+          "id": 2,
+          "discTrack": "Track 2",
+          "title": "The Four Horsemen",
+          "duration": 432,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/5RrnDgjoFxDINI5aFQPZXt",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
             2,
-            4
+            3,
+            8
+          ]
+        },
+        {
+          "id": 3,
+          "discTrack": "Track 3",
+          "title": "Motorbreath",
+          "duration": 187,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/6RqEJvpEzzlwj8g0wKG1ln",
+          "officialMusicVideo": null,
+          "composers": [
+            1
+          ]
+        },
+        {
+          "id": 4,
+          "discTrack": "Track 4",
+          "title": "Jump in the Fire",
+          "duration": 281,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/4fVBFyglBhMf0erfF7pBJp",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            8
+          ]
+        },
+        {
+          "id": 5,
+          "discTrack": "Track 5",
+          "title": "(Anesthesia) Pulling Teeth (Instrumental)",
+          "duration": 254,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/4hsJQXAXPbni5QyChVzVsD",
+          "officialMusicVideo": null,
+          "composers": [
+            6
+          ]
+        },
+        {
+          "id": 6,
+          "discTrack": "Track 6",
+          "title": "Whiplash",
+          "duration": 248,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/38fIaph07Kd8ZIN6l17ZJs",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2
+          ]
+        },
+        {
+          "id": 7,
+          "discTrack": "Track 7",
+          "title": "Phantom Lord",
+          "duration": 301,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/5R5b3EZkGsYsZz2XdUNrXI",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            8
+          ]
+        },
+        {
+          "id": 8,
+          "discTrack": "Track 8",
+          "title": "No Remorse",
+          "duration": 386,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/2uQBTkujGFuwUnA0fi5Qnb",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2
+          ]
+        },
+        {
+          "id": 9,
+          "discTrack": "Track 9",
+          "title": "Seek & Destroy",
+          "duration": 414,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/28WmNsclKsrVmdv3tDmoYU",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2
+          ]
+        },
+        {
+          "id": 10,
+          "discTrack": "Track 10",
+          "title": "Metal Militia",
+          "duration": 311,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/2TBRfDnfwsOIaGxkkXFBN2",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            8
           ]
         }
       ]
