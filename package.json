@@ -1,18 +1,18 @@
 {
   "name": "metallica-api",
   "version": "1.0.0",
-  "description": "API for Metallica fans",
+  "description": "Free API for Metallica fans and developers",
   "repository": "https://github.com/Filipe-Bacof/metallica-api.git",
-  "main": "src/app.js",
+  "keywords": [
+    "metallica"
+  ],
+  "main": "src/app.ts",
   "scripts": {
     "dev": "tsx watch src/app.ts",
     "start": "node ./dist/app.cjs",
     "build": "tsup src",
     "lint": "eslint src --ext .js --fix"
   },
-  "keywords": [
-    "metallica"
-  ],
   "author": "Filipe Bacof",
   "license": "MIT",
   "dependencies": {
