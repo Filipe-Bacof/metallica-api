@@ -9,18 +9,8 @@
   "main": "dist/app.js",
   "scripts": {
     "dev": "tsx watch src/app.ts",
-    "start": "nodemon src/index.ts",
-    "build": "rimraf dist && tsc",
-    "ts.check": "tsc --project tsconfig.json",
-    "add-build": "git add dist",
-    "lint": "eslint src --ext .js --fix",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon src/index.ts"
   },
-  "pre-commit": [
-    "ts.check",
-    "build",
-    "add-build"
-  ],
   "author": "Filipe Bacof",
   "license": "MIT",
   "dependencies": {
