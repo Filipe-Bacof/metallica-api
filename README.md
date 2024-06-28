@@ -14,7 +14,7 @@
 ## Base URL
 
 ```
-https://bacof-metallica-api.vercel.app/
+https://metallica-api.onrender.com/
 ```
 
 ## Endpoints
