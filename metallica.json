@@ -1786,6 +1786,172 @@
           ]
         }
       ]
+    },
+    {
+      "id": 10,
+      "title": "Death Magnetic",
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b273dfe44d577f07e08564ec73ed",
+      "spotifyURL": "https://open.spotify.com/intl-pt/album/3bK58rVcWBh3V3vxMLzi0V",
+      "releaseDate": "2008/09/12",
+      "duration": 4481,
+      "composers": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "tracks": [
+        {
+          "id": 113,
+          "discTrack": "Track 1",
+          "title": "That Was Just Your Life",
+          "duration": 428,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/2EEzTxM4MMjTuDG146TK3G",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "id": 114,
+          "discTrack": "Track 2",
+          "title": "The End of the Line",
+          "duration": 472,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/62qcKV45EjiFwEk074P9Mk",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "id": 115,
+          "discTrack": "Track 3",
+          "title": "Broken, Beat & Scarred",
+          "duration": 385,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/3BVJ1nwvdmYjXJ7gBTXTGX",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "id": 116,
+          "discTrack": "Track 4",
+          "title": "The Day That Never Comes",
+          "duration": 476,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/13Uvqll8OQDjw3wDweIK9y",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "id": 117,
+          "discTrack": "Track 5",
+          "title": "All Nightmare Long",
+          "duration": 477,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/3e7wv9TChjWrnXHrk5NyBU",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "id": 118,
+          "discTrack": "Track 6",
+          "title": "Cyanide",
+          "duration": 399,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/2PSXyiERCaNmRyFA06UMjq",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "id": 119,
+          "discTrack": "Track 7",
+          "title": "The Unforgiven III",
+          "duration": 466,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/0qbV4e18lWrTTxlswVoLbI",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "id": 120,
+          "discTrack": "Track 8",
+          "title": "The Judas Kiss",
+          "duration": 480,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/09VNOLsjKwQasQXhsS8sRA",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "id": 121,
+          "discTrack": "Track 9",
+          "title": "Suicide & Redemption",
+          "duration": 597,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/2VTJaQNkvxU4S2zjkVJirF",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "id": 122,
+          "discTrack": "Track 10",
+          "title": "My Apocalypse",
+          "duration": 301,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/7MtBapy0MnmBVsU3o0yrFz",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ]
     }
   ]
 }
