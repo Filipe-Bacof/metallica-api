@@ -10,5 +10,16 @@
     "env": {
       "NODE_ENV": "production"
     }
-  }
+  },
+  "builds": [
+    {
+      "src": "/dist/app.js",
+      "use": "@vercel/node",
+      "config": {
+        "includeFiles": [
+          "dist/**"
+        ]
+      }
+    }
+  ]
 }
