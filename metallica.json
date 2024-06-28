@@ -505,8 +505,7 @@
         1,
         2,
         3,
-        5,
-        6
+        5
       ],
       "tracks": [
         {
@@ -630,6 +629,183 @@
             1,
             2,
             3
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Metallica Black Album",
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b2731f9edf15e43f4c2f4938b869",
+      "spotifyURL": "https://open.spotify.com/intl-pt/album/3dck2tBxGfxj9m3CguDgjb",
+      "releaseDate": "1991/08/12",
+      "duration": 3751,
+      "composers": [
+        1,
+        2,
+        3,
+        5
+      ],
+      "tracks": [
+        {
+          "id": 36,
+          "discTrack": "Track 1",
+          "title": "Enter Sandman",
+          "duration": 331,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/2T5q7qhJVN4m2hMSIAsOlC",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            5
+          ]
+        },
+        {
+          "id": 37,
+          "discTrack": "Track 2",
+          "title": "Sad but True",
+          "duration": 323,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/6WJFcaTxTP1Z95rLE6lk7s",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2
+          ]
+        },
+        {
+          "id": 38,
+          "discTrack": "Track 3",
+          "title": "Holier Than Thou",
+          "duration": 228,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/6c5Ft6sEfLjVxL2wkgxBtv",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2
+          ]
+        },
+        {
+          "id": 39,
+          "discTrack": "Track 4",
+          "title": "The Unforgiven",
+          "duration": 387,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/5lqyqPU3JkpCbUbLmTVQPW",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "id": 40,
+          "discTrack": "Track 5",
+          "title": "Wherever I May Roam",
+          "duration": 406,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/3quYoE7KgIIaqVXPd7MpX0",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2
+          ]
+        },
+        {
+          "id": 41,
+          "discTrack": "Track 6",
+          "title": "Don't Tread on Me",
+          "duration": 241,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/3zbLtkeCoU5LutGs8728c6",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2
+          ]
+        },
+        {
+          "id": 42,
+          "discTrack": "Track 7",
+          "title": "Through the Never",
+          "duration": 243,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/5pPYLYTIBVJAz7iZRPufqw",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "id": 43,
+          "discTrack": "Track 8",
+          "title": "Nothing Else Matters",
+          "duration": 389,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/7s1xIVKnVj4hhsO607RC8k",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2
+          ]
+        },
+        {
+          "id": 44,
+          "discTrack": "Track 9",
+          "title": "Of Wolf and Man",
+          "duration": 257,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/3bxHy4sUXEWjI9kXG1DH5K",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "id": 45,
+          "discTrack": "Track 10",
+          "title": "The God That Failed",
+          "duration": 305,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/6SUS59EDam0USXk05d9ZAH",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2
+          ]
+        },
+        {
+          "id": 46,
+          "discTrack": "Track 11",
+          "title": "My Friend of Misery",
+          "duration": 410,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/1EcFqCwlaXfg5E5uhrrlZy",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            5
+          ]
+        },
+        {
+          "id": 47,
+          "discTrack": "Track 12",
+          "title": "The Struggle Within",
+          "duration": 234,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/6lxHGwegGl7E49p2pqVHe2",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2
           ]
         }
       ]
