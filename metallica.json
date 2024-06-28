@@ -79,6 +79,16 @@
       "memberSince": "1982/03/14",
       "bandDepartureDate": "1983/04/11",
       "instagram": "https://www.instagram.com/davemustaine/"
+    },
+    {
+      "id": 9,
+      "name": "Lewis Allen Lou Reed",
+      "artisticName": "Lou Reed",
+      "birthDate": "1942/03/02",
+      "deathDate": "2013/10/27",
+      "memberSince": "2009/10/30",
+      "bandDepartureDate": "2011/11/01",
+      "instagram": "https://www.instagram.com/loureedofficial/"
     }
   ],
   "albuns": [
@@ -1949,6 +1959,183 @@
             2,
             3,
             4
+          ]
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Lulu",
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b273bf3f45395f620f8bbf98d919",
+      "spotifyURL": "https://open.spotify.com/intl-pt/album/3a1SJd8obHju43McHQew7J",
+      "releaseDate": "2011/11/01",
+      "duration": 5229,
+      "composers": [
+        1,
+        2,
+        3,
+        4,
+        9
+      ],
+      "tracks": [
+        {
+          "id": 123,
+          "discTrack": "Disc 1 Track 1",
+          "title": "Brandenburg Gate",
+          "duration": 259,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/4VSgmiMD3DGZXVtsVFZDB1",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            3,
+            4,
+            9
+          ]
+        },
+        {
+          "id": 124,
+          "discTrack": "Disc 1 Track 2",
+          "title": "The View",
+          "duration": 317,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/0xdqFv6Mvyg7qqyzU3NcpU",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            3,
+            4,
+            9
+          ]
+        },
+        {
+          "id": 125,
+          "discTrack": "Disc 1 Track 3",
+          "title": "Pumping Blood",
+          "duration": 444,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/31zZcvGSqPm4AFCMDFEar1",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            3,
+            4,
+            9
+          ]
+        },
+        {
+          "id": 126,
+          "discTrack": "Disc 1 Track 4",
+          "title": "Mistress Dread",
+          "duration": 412,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/2L0YIc1p5sFVVbDb6xSiJk",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            3,
+            4,
+            9
+          ]
+        },
+        {
+          "id": 127,
+          "discTrack": "Disc 1 Track 5",
+          "title": "Iced Honey",
+          "duration": 276,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/70YTikYfDKj3mgH5VQ7EcH",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            3,
+            4,
+            9
+          ]
+        },
+        {
+          "id": 128,
+          "discTrack": "Disc 1 Track 6",
+          "title": "Cheat on Me",
+          "duration": 686,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/78s2i68GL34JnJgAbTSKxQ",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            3,
+            4,
+            9
+          ]
+        },
+        {
+          "id": 129,
+          "discTrack": "Disc 2 Track 7",
+          "title": "Frustration",
+          "duration": 513,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/1QLv5VkgmXbdYMe3CC17sI",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            3,
+            4,
+            9
+          ]
+        },
+        {
+          "id": 130,
+          "discTrack": "Disc 2 Track 8",
+          "title": "Little Dog",
+          "duration": 481,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/0TAdrMcXwaah5FYMDVikh1",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            3,
+            4,
+            9
+          ]
+        },
+        {
+          "id": 131,
+          "discTrack": "Disc 2 Track 9",
+          "title": "Dragon",
+          "duration": 668,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/11txewAaM18eDXWYXwnkH7",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            3,
+            4,
+            9
+          ]
+        },
+        {
+          "id": 132,
+          "discTrack": "Disc 2 Track 10",
+          "title": "Junior Dad",
+          "duration": 1168,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/1HgwkxTRigwfI5h9XPdX0d",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            3,
+            4,
+            9
           ]
         }
       ]
