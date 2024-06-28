@@ -658,7 +658,7 @@
           "composers": [
             1,
             2,
-            5
+            3
           ]
         },
         {
@@ -820,7 +820,8 @@
       "composers": [
         1,
         2,
-        3
+        3,
+        5
       ],
       "tracks": [
         {
@@ -833,8 +834,7 @@
           "officialMusicVideo": null,
           "composers": [
             1,
-            2,
-            3
+            2
           ]
         },
         {
@@ -1011,6 +1011,198 @@
           "composers": [
             1,
             2
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Reload",
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b273a49eff6d64cafc2551553380",
+      "spotifyURL": "https://open.spotify.com/intl-pt/album/0Ip2GlQPoAIgdkqCO2YkMa",
+      "releaseDate": "1997/11/18",
+      "duration": 4556,
+      "composers": [
+        1,
+        2,
+        3,
+        5
+      ],
+      "tracks": [
+        {
+          "id": 62,
+          "discTrack": "Track 1",
+          "title": "Fuel",
+          "duration": 269,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/6FUwPb4mGlUDbx42uspXaZ",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "id": 63,
+          "discTrack": "Track 2",
+          "title": "The Memory Remains",
+          "duration": 279,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/6RbC38oDCIXD8V2AOU1Tjr",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2
+          ]
+        },
+        {
+          "id": 64,
+          "discTrack": "Track 3",
+          "title": "Devil's Dance",
+          "duration": 318,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/3IHyDrQOASm7R0WBamMJO8",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2
+          ]
+        },
+        {
+          "id": 65,
+          "discTrack": "Track 4",
+          "title": "The Unforgiven II",
+          "duration": 396,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/6nswV1Lz3OZkaiCJfmVUOa",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "id": 66,
+          "discTrack": "Track 5",
+          "title": "Better than You",
+          "duration": 321,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/6FAHGDSq8RDfHXIk3DSZdb",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2
+          ]
+        },
+        {
+          "id": 67,
+          "discTrack": "Track 6",
+          "title": "Slither",
+          "duration": 313,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/1R29PfqelwVMRPhg5fn0lD",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "id": 68,
+          "discTrack": "Track 7",
+          "title": "Carpe Diem Baby",
+          "duration": 372,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/4Cqn0tBcozdKfdengvZJv4",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "id": 69,
+          "discTrack": "Track 8",
+          "title": "Bad Seed",
+          "duration": 245,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/0cKWKhciVCYNyxFVnV1Y4R",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "id": 70,
+          "discTrack": "Track 9",
+          "title": "Where The Wild Things Are",
+          "duration": 412,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/2bvG8hQhJDe68NEBM8XjXc",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            5
+          ]
+        },
+        {
+          "id": 71,
+          "discTrack": "Track 10",
+          "title": "Prince Charming",
+          "duration": 364,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/6ax1qtm74zcC2eS8l0SLGX",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2
+          ]
+        },
+        {
+          "id": 72,
+          "discTrack": "Track 11",
+          "title": "Low Man's Lyric",
+          "duration": 456,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/7tZckbBO3wtatBWne8YbcM",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2
+          ]
+        },
+        {
+          "id": 73,
+          "discTrack": "Track 12",
+          "title": "Attitude",
+          "duration": 316,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/3VNkUPHPgC34Zk7TnikPtX",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2
+          ]
+        },
+        {
+          "id": 74,
+          "discTrack": "Track 13",
+          "title": "Fixxxer",
+          "duration": 494,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/5jE2hljNVTJZeodUXQu9Ea",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            3
           ]
         }
       ]
