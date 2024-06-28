@@ -1,0 +1,69 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+generator erd {
+  provider = "prisma-erd-generator"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model BandMember {
+  id                Int       @id @default(autoincrement())
+  name              String
+  artisticName      String
+  birthDate         DateTime
+  deathDate         DateTime?
+  memberSince       DateTime
+  bandDepartureDate DateTime?
+  instagram         String?
+
+  albums AlbumMember[]
+  songs  SongMember[]
+}
+
+model Album {
+  id          Int      @id @default(autoincrement())
+  title       String
+  albumCover  String
+  spotifyURL  String
+  releaseDate DateTime
+
+  composers AlbumMember[]
+  tracks    Song[]
+}
+
+model AlbumMember {
+  bandMemberId Int
+  albumId      Int
+  bandMember   BandMember @relation(fields: [bandMemberId], references: [id])
+  album        Album      @relation(fields: [albumId], references: [id])
+
+  @@id([bandMemberId, albumId])
+}
+
+model Song {
+  id                 Int     @id @default(autoincrement())
+  albumId            Int
+  discTrack          String
+  title              String
+  duration           Int
+  lyrics             String
+  spotifyURL         String
+  officialMusicVideo String?
+
+  album     Album        @relation(fields: [albumId], references: [id])
+  composers SongMember[]
+}
+
+model SongMember {
+  bandMemberId Int
+  songId       Int
+  bandMember   BandMember @relation(fields: [bandMemberId], references: [id])
+  song         Song       @relation(fields: [songId], references: [id])
+
+  @@id([bandMemberId, songId])
+}
