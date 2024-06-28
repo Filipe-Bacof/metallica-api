@@ -365,6 +365,134 @@
           ]
         }
       ]
+    },
+    {
+      "id": 3,
+      "title": "Master of Puppets",
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b273668e3aca3167e6e569a9aa20",
+      "spotifyURL": "https://open.spotify.com/intl-pt/album/2Lq2qX3hYhiuPckC8Flj21",
+      "releaseDate": "1986/03/03",
+      "duration": 3286,
+      "composers": [
+        1,
+        2,
+        3,
+        6
+      ],
+      "tracks": [
+        {
+          "id": 19,
+          "discTrack": "Track 1",
+          "title": "Battery",
+          "duration": 313,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/6UB9mShVLbMm0W4e6vud4C",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2
+          ]
+        },
+        {
+          "id": 20,
+          "discTrack": "Track 2",
+          "title": "Master of Puppets",
+          "duration": 516,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/2MuWTIM3b0YEAskbeeFE1i",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            3,
+            6
+          ]
+        },
+        {
+          "id": 21,
+          "discTrack": "Track 3",
+          "title": "The Thing That Should Not Be",
+          "duration": 397,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/7vFC68CBMKu99p4tIz6yzx",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "id": 22,
+          "discTrack": "Track 4",
+          "title": "Welcome Home (Sanitarium)",
+          "duration": 388,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/4TktvZTsMoFukiim1otMtr",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "id": 23,
+          "discTrack": "Track 5",
+          "title": "Disposable Heroes",
+          "duration": 497,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/4tPHBRIPsB55nssjvKDbjj",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "id": 24,
+          "discTrack": "Track 6",
+          "title": "Leper Messiah",
+          "duration": 341,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/6XN00D9ejjEt1cW1sY44Gu",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2
+          ]
+        },
+        {
+          "id": 25,
+          "discTrack": "Track 7",
+          "title": "Orion",
+          "duration": 508,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/2HD5BWFthrNf2uFyEhi53d",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            6
+          ]
+        },
+        {
+          "id": 26,
+          "discTrack": "Track 8",
+          "title": "Damage, Inc.",
+          "duration": 330,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/3n7b078PcVbHhUaYhBWIgZ",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            3,
+            6
+          ]
+        }
+      ]
     }
   ]
 }
