@@ -1,89 +1,114 @@
 {
-  members: [
+  "members": [
     {
-      id: 1,
-      name: "James Alan Hetfield",
-      artisticName: "James Hetfield",
-      birthDate: "1963/08/03",
-      deathDate: null,
-      memberSince: "1982/03/14",
-      bandDepartureDate: null,
-      instagram: "https://www.instagram.com/papa.het_/"
+      "id": 1,
+      "name": "James Alan Hetfield",
+      "artisticName": "James Hetfield",
+      "birthDate": "1963/08/03",
+      "deathDate": null,
+      "memberSince": "1982/03/14",
+      "bandDepartureDate": null,
+      "instagram": "https://www.instagram.com/papa.het_/"
     },
     {
-      id: 2,
-      name: "Sir Lars Ulrich",
-      artisticName: "Lars Ulrich",
-      birthDate: "1963/12/26",
-      deathDate: null,
-      memberSince: "1982/03/14",
-      bandDepartureDate: null,
-      instagram: "https://www.instagram.com/larsulrich/"
+      "id": 2,
+      "name": "Sir Lars Ulrich",
+      "artisticName": "Lars Ulrich",
+      "birthDate": "1963/12/26",
+      "deathDate": null,
+      "memberSince": "1982/03/14",
+      "bandDepartureDate": null,
+      "instagram": "https://www.instagram.com/larsulrich/"
     },
     {
-      id: 3,
-      name: "David Scott Mustaine",
-      artisticName: "Dave Mustaine",
-      birthDate: "1961/09/13",
-      deathDate: null,
-      memberSince: "1982/03/14",
-      bandDepartureDate: "1983/04/11",
-      instagram: "https://www.instagram.com/davemustaine/"
+      "id": 3,
+      "name": "David Scott Mustaine",
+      "artisticName": "Dave Mustaine",
+      "birthDate": "1961/09/13",
+      "deathDate": null,
+      "memberSince": "1982/03/14",
+      "bandDepartureDate": "1983/04/11",
+      "instagram": "https://www.instagram.com/davemustaine/"
     },
     {
-      id: 4,
-      name: "Kirk Lee Hammett",
-      artisticName: "Kirk Hammett",
-      birthDate: "1962/11/18",
-      deathDate: null,
-      memberSince: "1983/04/16",
-      bandDepartureDate: null,
-      instagram: "https://www.instagram.com/kirkhammett/"
+      "id": 4,
+      "name": "Kirk Lee Hammett",
+      "artisticName": "Kirk Hammett",
+      "birthDate": "1962/11/18",
+      "deathDate": null,
+      "memberSince": "1983/04/16",
+      "bandDepartureDate": null,
+      "instagram": "https://www.instagram.com/kirkhammett/"
     },
     {
-      id: 5,
-      name: "Ronald McGovney",
-      artisticName: "Ron McGovney",
-      birthDate: "1962/11/02",
-      deathDate: null,
-      memberSince: "1982/03/14",
-      bandDepartureDate: "1982/11/30",
-      instagram: "https://www.instagram.com/explore/tags/ronmcgovney/"
+      "id": 5,
+      "name": "Ronald McGovney",
+      "artisticName": "Ron McGovney",
+      "birthDate": "1962/11/02",
+      "deathDate": null,
+      "memberSince": "1982/03/14",
+      "bandDepartureDate": "1982/11/30",
+      "instagram": "https://www.instagram.com/explore/tags/ronmcgovney/"
     },
     {
-      id: 6,
-      name: "Clifford Lee Burton",
-      artisticName: "Cliff Burton",
-      birthDate: "1962/02/10",
-      deathDate: "1986/09/27",
-      memberSince: "1984/12/14",
-      bandDepartureDate: "1986/09/26",
-      instagram: "https://www.instagram.com/explore/locations/257546413/cliff-burton-memorial/"
+      "id": 6,
+      "name": "Clifford Lee Burton",
+      "artisticName": "Cliff Burton",
+      "birthDate": "1962/02/10",
+      "deathDate": "1986/09/27",
+      "memberSince": "1984/12/14",
+      "bandDepartureDate": "1986/09/26",
+      "instagram": "https://www.instagram.com/explore/locations/257546413/cliff-burton-memorial/"
     },
     {
-      id: 7,
-      name: "Jason Curtis Newsted",
-      artisticName: "Jason Newsted",
-      birthDate: "1963/03/04",
-      deathDate: null,
-      memberSince: "1986/11/08",
-      bandDepartureDate: "2001/01/17",
-      instagram: "https://www.instagram.com/newsted21/"
+      "id": 7,
+      "name": "Jason Curtis Newsted",
+      "artisticName": "Jason Newsted",
+      "birthDate": "1963/03/04",
+      "deathDate": null,
+      "memberSince": "1986/11/08",
+      "bandDepartureDate": "2001/01/17",
+      "instagram": "https://www.instagram.com/newsted21/"
     },
     {
-      id: 8,
-      name: "Roberto Agustín Miguel Santiago Samuel Trujillo Veracruz",
-      artisticName: "Robert Trujillo",
-      birthDate: "1964/10/23",
-      deathDate: null,
-      memberSince: "2003/06/05",
-      bandDepartureDate: null,
-      instagram: "https://www.instagram.com/robtrujillo/"
-    },
+      "id": 8,
+      "name": "Roberto AgustÃ­n Miguel Santiago Samuel Trujillo Veracruz",
+      "artisticName": "Robert Trujillo",
+      "birthDate": "1964/10/23",
+      "deathDate": null,
+      "memberSince": "2003/06/05",
+      "bandDepartureDate": null,
+      "instagram": "https://www.instagram.com/robtrujillo/"
+    }
   ],
-  albuns: [
+  "albuns": [
     {
-      title: "kill em all"
+      "id": 1,
+      "title": "kill em all",
+      "albumCover": "URL",
+      "spotifyURL": "URL",
+      "releaseDate": "AAAA/MM/DD",
+      "composers": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "tracks": [
+        {
+          "id": 1,
+          "discTrack": "Disc 1 - Track 1",
+          "title": "hit the lights",
+          "duration": 134,
+          "lyrics": "primeiralinha\nsegundalinha",
+          "spotifyURL": "URL",
+          "officialMusicVideo": null,
+          "composers": [
+            2,
+            4
+          ]
+        }
+      ]
     }
   ]
 }
