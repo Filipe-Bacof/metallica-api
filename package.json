@@ -6,13 +6,22 @@
   "keywords": [
     "metallica"
   ],
+  "author": "Filipe Bacof",
+  "license": "MIT",
   "main": "dist/app.js",
   "scripts": {
     "dev": "tsx watch src/app.ts",
-    "start": "nodemon src/index.ts"
+    "start": "nodemon src/index.ts",
+    "build": "rimraf dist && tsc",
+    "ts.check": "tsc --project tsconfig.json",
+    "add-build": "git add dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Filipe Bacof",
-  "license": "MIT",
+  "pre-commit": [
+    "ts.check",
+    "build",
+    "add-build"
+  ],
   "dependencies": {
     "@prisma/client": "^5.16.1",
     "cors": "^2.8.5",
