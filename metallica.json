@@ -2228,7 +2228,7 @@
       "tracks": [
         {
           "id": 137,
-          "discTrack": "Disco 1 Track 1",
+          "discTrack": "Disc 1 Track 1",
           "title": "Hardwired",
           "duration": 189,
           "lyrics": "",
@@ -2242,7 +2242,7 @@
         },
         {
           "id": 138,
-          "discTrack": "Disco 1 Track 2",
+          "discTrack": "Disc 1 Track 2",
           "title": "Atlas, Rise!",
           "duration": 388,
           "lyrics": "",
@@ -2256,7 +2256,7 @@
         },
         {
           "id": 139,
-          "discTrack": "Disco 1 Track 3",
+          "discTrack": "Disc 1 Track 3",
           "title": "Now That We're Dead",
           "duration": 419,
           "lyrics": "",
@@ -2270,7 +2270,7 @@
         },
         {
           "id": 140,
-          "discTrack": "Disco 1 Track 4",
+          "discTrack": "Disc 1 Track 4",
           "title": "Moth into Flame",
           "duration": 350,
           "lyrics": "",
@@ -2284,7 +2284,7 @@
         },
         {
           "id": 141,
-          "discTrack": "Disco 1 Track 5",
+          "discTrack": "Disc 1 Track 5",
           "title": "Dream No More",
           "duration": 389,
           "lyrics": "",
@@ -2298,7 +2298,7 @@
         },
         {
           "id": 142,
-          "discTrack": "Disco 1 Track 6",
+          "discTrack": "Disc 1 Track 6",
           "title": "Halo On Fire",
           "duration": 495,
           "lyrics": "",
@@ -2312,7 +2312,7 @@
         },
         {
           "id": 143,
-          "discTrack": "Disco 2 Track 1",
+          "discTrack": "Disc 2 Track 1",
           "title": "Confusion",
           "duration": 403,
           "lyrics": "",
@@ -2326,7 +2326,7 @@
         },
         {
           "id": 144,
-          "discTrack": "Disco 2 Track 2",
+          "discTrack": "Disc 2 Track 2",
           "title": "ManUNkind",
           "duration": 415,
           "lyrics": "",
@@ -2340,7 +2340,7 @@
         },
         {
           "id": 145,
-          "discTrack": "Disco 2 Track 3",
+          "discTrack": "Disc 2 Track 3",
           "title": "Here Comes Revenge",
           "duration": 437,
           "lyrics": "",
@@ -2354,7 +2354,7 @@
         },
         {
           "id": 146,
-          "discTrack": "Disco 2 Track 4",
+          "discTrack": "Disc 2 Track 4",
           "title": "Am I Savage?",
           "duration": 390,
           "lyrics": "",
@@ -2368,7 +2368,7 @@
         },
         {
           "id": 147,
-          "discTrack": "Disco 2 Track 5",
+          "discTrack": "Disc 2 Track 5",
           "title": "Murder One",
           "duration": 345,
           "lyrics": "",
@@ -2382,7 +2382,7 @@
         },
         {
           "id": 148,
-          "discTrack": "Disco 2 Track 6",
+          "discTrack": "Disc 2 Track 6",
           "title": "Spit Out the Bone",
           "duration": 429,
           "lyrics": "",
@@ -2396,7 +2396,7 @@
         },
         {
           "id": 149,
-          "discTrack": "Disco 3 Track 1",
+          "discTrack": "Disc 3 Track 1",
           "title": "Lords Of Summer",
           "duration": 430,
           "lyrics": "",
@@ -2410,7 +2410,7 @@
         },
         {
           "id": 150,
-          "discTrack": "Disco 3 Track 2",
+          "discTrack": "Disc 3 Track 2",
           "title": "Ronnie Rising Medley",
           "duration": 553,
           "lyrics": "",
@@ -2424,7 +2424,7 @@
         },
         {
           "id": 151,
-          "discTrack": "Disco 3 Track 3",
+          "discTrack": "Disc 3 Track 3",
           "title": "When A Blind Man Cries",
           "duration": 275,
           "lyrics": "",
@@ -2438,7 +2438,7 @@
         },
         {
           "id": 152,
-          "discTrack": "Disco 3 Track 4",
+          "discTrack": "Disc 3 Track 4",
           "title": "Remember Tomorrow",
           "duration": 350,
           "lyrics": "",
@@ -2448,6 +2448,185 @@
             1,
             2,
             4
+          ]
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "title": "72 Seasons",
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b273e9c415cdc78d53b9b8627274",
+      "spotifyURL": "https://open.spotify.com/intl-pt/album/6UwjRSX9RQyNgJ3LwYhr9i",
+      "releaseDate": "2023/04/14",
+      "duration": 4630,
+      "composers": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "tracks": [
+        {
+          "id": 153,
+          "discTrack": "Track 1",
+          "title": "72 Seasons",
+          "duration": 459,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/3uSATa7xWXVJrMhJJSnGGk",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "id": 154,
+          "discTrack": "Track 2",
+          "title": "Shadows Follow",
+          "duration": 372,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/5iG1GycXpheJ5xMW0gNvKv",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2
+          ]
+        },
+        {
+          "id": 155,
+          "discTrack": "Track 3",
+          "title": "Screaming Suicide",
+          "duration": 330,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/2hBn08QphNtdnhwDNtnZMg",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            4
+          ]
+        },
+        {
+          "id": 156,
+          "discTrack": "Track 4",
+          "title": "Sleepwalk My Life Away",
+          "duration": 416,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/6HeYgpgqEo8SGis4dHwRbu",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            4
+          ]
+        },
+        {
+          "id": 157,
+          "discTrack": "Track 5",
+          "title": "You Must Burn!",
+          "duration": 423,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/1ALXFmNr7lrTug2LAE989q",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            4
+          ]
+        },
+        {
+          "id": 158,
+          "discTrack": "Track 6",
+          "title": "Lux Æterna",
+          "duration": 202,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/6eXWc7irALyENtbAD2TTOT",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2
+          ]
+        },
+        {
+          "id": 159,
+          "discTrack": "Track 7",
+          "title": "Crown of Barbed Wire",
+          "duration": 349,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/6eiFVKWhv9EYL2RdrVFtyC",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "id": 160,
+          "discTrack": "Track 8",
+          "title": "Chasing Light",
+          "duration": 405,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/0aHwh2rqyJNN0eZ4sGZLEt",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "id": 161,
+          "discTrack": "Track 9",
+          "title": "If Darkness Had a Son",
+          "duration": 396,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/1oCQLSGSiHozdyx7lOqkIt",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "id": 162,
+          "discTrack": "Track 10",
+          "title": "Too Far Gone?",
+          "duration": 274,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/2ZPnedMaS4W1de05Xz18hF",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2
+          ]
+        },
+        {
+          "id": 163,
+          "discTrack": "Track 11",
+          "title": "Room of Mirrors",
+          "duration": 334,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/3L82LuRzu60EPSK1yf5Pxr",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2
+          ]
+        },
+        {
+          "id": 164,
+          "discTrack": "Track 12",
+          "title": "Inamorata",
+          "duration": 670,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/589aAz8258JEsMwpJglalU",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2
           ]
         }
       ]
