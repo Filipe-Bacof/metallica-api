@@ -809,6 +809,211 @@
           ]
         }
       ]
+    },
+    {
+      "id": 6,
+      "title": "Load",
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b2730a3eb7ef6df5732fc6fa77ec",
+      "spotifyURL": "https://open.spotify.com/intl-pt/album/6ndH0UlQbyCOVqByMXXhdV",
+      "releaseDate": "1996/06/04",
+      "duration": 4739,
+      "composers": [
+        1,
+        2,
+        3
+      ],
+      "tracks": [
+        {
+          "id": 48,
+          "discTrack": "Track 1",
+          "title": "Ain't My Bitch",
+          "duration": 304,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/3QWzxUE2WA5WoSi82KCODk",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "id": 49,
+          "discTrack": "Track 2",
+          "title": "2 X 4",
+          "duration": 328,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/0SwHR5lvAfgI8Z2D6YgvMd",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "id": 50,
+          "discTrack": "Track 3",
+          "title": "The House Jack Built",
+          "duration": 399,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/2UmXstEJ8nkpUUfQRYieC6",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "id": 51,
+          "discTrack": "Track 4",
+          "title": "Until It Sleeps",
+          "duration": 270,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/2Iv4HSoMX2fDeXFcOJWyWX",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2
+          ]
+        },
+        {
+          "id": 52,
+          "discTrack": "Track 5",
+          "title": "King Nothing",
+          "duration": 328,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/30RKGpKHqr7ytcTljw436k",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "id": 53,
+          "discTrack": "Track 6",
+          "title": "Hero of the Day",
+          "duration": 262,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/0rDPQzWWmLTv9deHn4ulG7",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "id": 54,
+          "discTrack": "Track 7",
+          "title": "Bleeding Me",
+          "duration": 498,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/7FLm43IriB4jxAposCv9Ji",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "id": 55,
+          "discTrack": "Track 8",
+          "title": "Cure",
+          "duration": 294,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/3SLjisy5GM8Wx3oOz7Nfs3",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2
+          ]
+        },
+        {
+          "id": 56,
+          "discTrack": "Track 9",
+          "title": "Poor Twisted Me",
+          "duration": 240,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/2lOP1kfyJHY6palBs5QuLU",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2
+          ]
+        },
+        {
+          "id": 57,
+          "discTrack": "Track 10",
+          "title": "Wasting My Hate",
+          "duration": 237,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/3FkyxKotYLTeM2LJu1x2gU",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "id": 58,
+          "discTrack": "Track 11",
+          "title": "Mama Said",
+          "duration": 319,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/3dWNUqrgkQakv9fj5epwPK",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2
+          ]
+        },
+        {
+          "id": 59,
+          "discTrack": "Track 12",
+          "title": "Thorn Within",
+          "duration": 351,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/1AUniKVKOViJ5IKpoSUx52",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "id": 60,
+          "discTrack": "Track 13",
+          "title": "Ronnie",
+          "duration": 317,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/1jSWsQN5YeFnY8nmMsAohO",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2
+          ]
+        },
+        {
+          "id": 61,
+          "discTrack": "Track 14",
+          "title": "The Outlaw Torn",
+          "duration": 592,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/4mm2PAEpJqPEHNtMrHZo1s",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2
+          ]
+        }
+      ]
     }
   ]
 }
