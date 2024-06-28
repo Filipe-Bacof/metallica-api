@@ -10,7 +10,7 @@
   "scripts": {
     "dev": "tsx watch src/app.ts",
     "start": "node ./dist/app.js",
-    "build": "tsup src",
+    "build": "tsup src --out-dir dist",
     "lint": "eslint src --ext .js --fix"
   },
   "author": "Filipe Bacof",
