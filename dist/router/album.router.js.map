@@ -1,0 +1,1 @@
+{"version":3,"file":"album.router.js","sourceRoot":"","sources":["../../src/router/album.router.ts"],"names":[],"mappings":";;AAAA,qCAAiC;AAEjC,sEAIyC;AAEzC,MAAM,WAAW,GAAG,IAAA,gBAAM,GAAE,CAAC;AAE7B,WAAW,CAAC,GAAG,CAAC,QAAQ,EAAE,+BAAY,CAAC,CAAC;AAExC,WAAW,CAAC,GAAG,CAAC,eAAe,EAAE,+BAAY,CAAC,CAAC;AAE/C,WAAW,CAAC,GAAG,CAAC,qBAAqB,EAAE,mCAAgB,CAAC,CAAC;AAEzD,kBAAe,WAAW,CAAC"}
