@@ -2139,6 +2139,318 @@
           ]
         }
       ]
+    },
+    {
+      "id": 12,
+      "title": "Beyond Magnetic",
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b273702cd0315b57c5c25690bc58",
+      "spotifyURL": "https://open.spotify.com/intl-pt/album/6umaXKrRVHRgUH7nsxM9eg",
+      "releaseDate": "2011/12/13",
+      "duration": 1748,
+      "composers": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "tracks": [
+        {
+          "id": 133,
+          "discTrack": "Track 1",
+          "title": "Hate Train",
+          "duration": 419,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/53ldcKAhVF5GkrCFa6sNce",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            4
+          ]
+        },
+        {
+          "id": 134,
+          "discTrack": "Track 2",
+          "title": "Just a Bullet Away",
+          "duration": 431,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/5PAMQio4GsqQspajqDpQih",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            4
+          ]
+        },
+        {
+          "id": 135,
+          "discTrack": "Track 3",
+          "title": "Hell and Back",
+          "duration": 417,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/4VnkEOjakj2lWcN1I4Rg6E",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            4
+          ]
+        },
+        {
+          "id": 136,
+          "discTrack": "Track 4",
+          "title": "Rebel of Babylon",
+          "duration": 481,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/4fwihrulNLwOvl2iApiMFl",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Hardwired... to Self-Destruct",
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b273f2651ad6c2b8c509055f410e",
+      "spotifyURL": "https://open.spotify.com/intl-pt/album/4bcUiX49wpmDRhrC8TvDWV",
+      "releaseDate": "2016/06/18",
+      "duration": 6606,
+      "composers": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "tracks": [
+        {
+          "id": 137,
+          "discTrack": "Disco 1 Track 1",
+          "title": "Hardwired",
+          "duration": 189,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/0QV3swr7L8MZr72lL2izV1",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            4
+          ]
+        },
+        {
+          "id": 138,
+          "discTrack": "Disco 1 Track 2",
+          "title": "Atlas, Rise!",
+          "duration": 388,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/31AstxMAthaDAbOuYC5gTn",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            4
+          ]
+        },
+        {
+          "id": 139,
+          "discTrack": "Disco 1 Track 3",
+          "title": "Now That We're Dead",
+          "duration": 419,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/7jsz8rEceVcQmv7v49ETAG",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            4
+          ]
+        },
+        {
+          "id": 140,
+          "discTrack": "Disco 1 Track 4",
+          "title": "Moth into Flame",
+          "duration": 350,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/6F5RvdxWcLOJW7LAGuc24r",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            4
+          ]
+        },
+        {
+          "id": 141,
+          "discTrack": "Disco 1 Track 5",
+          "title": "Dream No More",
+          "duration": 389,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/2COf35miqW9pzhojhEPnxK",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            4
+          ]
+        },
+        {
+          "id": 142,
+          "discTrack": "Disco 1 Track 6",
+          "title": "Halo On Fire",
+          "duration": 495,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/3HZP4wlFGbxHtErgM0IGCZ",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            4
+          ]
+        },
+        {
+          "id": 143,
+          "discTrack": "Disco 2 Track 1",
+          "title": "Confusion",
+          "duration": 403,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/5ZsRTVdS4dboapRDourqR3",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            4
+          ]
+        },
+        {
+          "id": 144,
+          "discTrack": "Disco 2 Track 2",
+          "title": "ManUNkind",
+          "duration": 415,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/3oraMeC7Iq2zSilhbl9bLG",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            4
+          ]
+        },
+        {
+          "id": 145,
+          "discTrack": "Disco 2 Track 3",
+          "title": "Here Comes Revenge",
+          "duration": 437,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/0b2zOvsFwVCsEq2AOc2U91",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            4
+          ]
+        },
+        {
+          "id": 146,
+          "discTrack": "Disco 2 Track 4",
+          "title": "Am I Savage?",
+          "duration": 390,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/51Q0yYVCa4VyXmFdBuFKVs",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            4
+          ]
+        },
+        {
+          "id": 147,
+          "discTrack": "Disco 2 Track 5",
+          "title": "Murder One",
+          "duration": 345,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/17kFwaEr6dHVGKial4rjRB",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            4
+          ]
+        },
+        {
+          "id": 148,
+          "discTrack": "Disco 2 Track 6",
+          "title": "Spit Out the Bone",
+          "duration": 429,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/1bYK3KYk7aK3f4IqbRi1yB",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            4
+          ]
+        },
+        {
+          "id": 149,
+          "discTrack": "Disco 3 Track 1",
+          "title": "Lords Of Summer",
+          "duration": 430,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/3HB6nPKoov65go3fc125yc",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            4
+          ]
+        },
+        {
+          "id": 150,
+          "discTrack": "Disco 3 Track 2",
+          "title": "Ronnie Rising Medley",
+          "duration": 553,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/4pjNGe4zc3okx6XpxQlDUv",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            4
+          ]
+        },
+        {
+          "id": 151,
+          "discTrack": "Disco 3 Track 3",
+          "title": "When A Blind Man Cries",
+          "duration": 275,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/6MKqed1tCXHRonfqhwPCET",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            4
+          ]
+        },
+        {
+          "id": 152,
+          "discTrack": "Disco 3 Track 4",
+          "title": "Remember Tomorrow",
+          "duration": 350,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/0wcD1zVNYKWVwBpoWhCt9A",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            4
+          ]
+        }
+      ]
     }
   ]
 }
