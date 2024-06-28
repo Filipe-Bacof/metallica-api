@@ -1206,6 +1206,427 @@
           ]
         }
       ]
+    },
+    {
+      "id": 8,
+      "title": "Garage Inc.",
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b2732873f7b94ddd51a1f206ba65",
+      "spotifyURL": "https://open.spotify.com/intl-pt/album/0vshXZYhBkbIoqxyC2fXcF",
+      "releaseDate": "1998/11/24",
+      "duration": 8191,
+      "composers": [
+        1,
+        2,
+        3,
+        5
+      ],
+      "tracks": [
+        {
+          "id": 75,
+          "discTrack": "Disc 1 Track 1",
+          "title": "Free Speech for the Dumb (Discharge)",
+          "duration": 155,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/5Drw9LOY1YkcgOXSatNfWj",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            3,
+            5
+          ]
+        },
+        {
+          "id": 76,
+          "discTrack": "Disc 1 Track 2",
+          "title": "It's Electric (Diamond Head)",
+          "duration": 213,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/7csz4sW8pAL4M378czLtlD",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            3,
+            5
+          ]
+        },
+        {
+          "id": 77,
+          "discTrack": "Disc 1 Track 3",
+          "title": "Sabbra Cadabra/A National Acrobat (Black Sabbath)",
+          "duration": 380,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/11IPNJTMidD7XtDcms6JNs",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            3,
+            5
+          ]
+        },
+        {
+          "id": 78,
+          "discTrack": "Disc 1 Track 4",
+          "title": "Turn the Page (Bob Seger)",
+          "duration": 366,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/1aXFBWnnPFRKUN7vuIA5h0",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            3,
+            5
+          ]
+        },
+        {
+          "id": 79,
+          "discTrack": "Disc 1 Track 5",
+          "title": "Die, Die My Darling (Misfits)",
+          "duration": 149,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/0t7LcUic4qolMCysPrKeAd",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            3,
+            5
+          ]
+        },
+        {
+          "id": 80,
+          "discTrack": "Disc 1 Track 6",
+          "title": "Loverman (Nick Cave and the Bad Seeds)",
+          "duration": 472,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/4ZzCFuFwZI0JY32L2znC8V",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            3,
+            5
+          ]
+        },
+        {
+          "id": 81,
+          "discTrack": "Disc 1 Track 7",
+          "title": "Mercyful Fate Medley (Mercyful Fate)",
+          "duration": 671,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/4QSjFkY6GEhu3yvo02xHxt",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            3,
+            5
+          ]
+        },
+        {
+          "id": 82,
+          "discTrack": "Disc 1 Track 8",
+          "title": "Astronomy (Blue Öyster Cult)",
+          "duration": 397,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/1Bpa3yoBAqpcc8mRC9jacn",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            3,
+            5
+          ]
+        },
+        {
+          "id": 83,
+          "discTrack": "Disc 1 Track 9",
+          "title": "Whiskey in the Jar (Thin Lizzy)",
+          "duration": 304,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/2R6UrJ8uWbSIiHWmvRQvN8",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            3,
+            5
+          ]
+        },
+        {
+          "id": 84,
+          "discTrack": "Disc 1 Track 10",
+          "title": "Tuesday's Gone (Lynyrd Skynyrd)",
+          "duration": 545,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/1OX2eJLfU0SHLzcy9sv9Vj",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            3,
+            5
+          ]
+        },
+        {
+          "id": 85,
+          "discTrack": "Disc 1 Track 11",
+          "title": "The More I See (Discharge)",
+          "duration": 288,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/1bEAFB39TyDfY3KtDtK7aI",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            3,
+            5
+          ]
+        },
+        {
+          "id": 86,
+          "discTrack": "Disc 2 Track 1",
+          "title": "Helpless (Diamond Head)",
+          "duration": 398,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/5sv8enQQ6TRwgKjnUOuTWi",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            3,
+            5
+          ]
+        },
+        {
+          "id": 87,
+          "discTrack": "Disc 2 Track 2",
+          "title": "The Small Hours (Holocaust)",
+          "duration": 403,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/3i6UJNxQev7ZyUyiq66un7",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            3,
+            5
+          ]
+        },
+        {
+          "id": 88,
+          "discTrack": "Disc 2 Track 3",
+          "title": "The Wait (Killing Joke)",
+          "duration": 295,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/50C1Xmop1WL6qvumYDTFaD",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            3,
+            5
+          ]
+        },
+        {
+          "id": 89,
+          "discTrack": "Disc 2 Track 4",
+          "title": "Crash Course in Brain Surgery (Budgie)",
+          "duration": 190,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/7IDSHt1TFIKVcNwvbJASBZ",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            3,
+            5
+          ]
+        },
+        {
+          "id": 90,
+          "discTrack": "Disc 2 Track 5",
+          "title": "Last Caress/Green Hell (Misfits)",
+          "duration": 210,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/31JLlpOHfr53d0C2zufEqJ",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            3,
+            5
+          ]
+        },
+        {
+          "id": 91,
+          "discTrack": "Disc 2 Track 6",
+          "title": "Am I Evil? (Diamond Head)",
+          "duration": 470,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/3T5kYazNB0f72vswYOSq4l",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            3,
+            6
+          ]
+        },
+        {
+          "id": 92,
+          "discTrack": "Disc 2 Track 7",
+          "title": "Blitzkrieg (Blitzkrieg)",
+          "duration": 217,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/0zZPCkSMAECtxBQHWJ0enW",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            3,
+            6
+          ]
+        },
+        {
+          "id": 93,
+          "discTrack": "Disc 2 Track 8",
+          "title": "Breadfan (Budgie)",
+          "duration": 341,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/4XRTyhEWlpWz3GqByHj7TU",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            3,
+            5
+          ]
+        },
+        {
+          "id": 94,
+          "discTrack": "Disc 2 Track 9",
+          "title": "The Prince (Diamond Head)",
+          "duration": 266,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/4zQDbahu9jdsTPyxdnYRPw",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            3,
+            5
+          ]
+        },
+        {
+          "id": 95,
+          "discTrack": "Disc 2 Track 10",
+          "title": "Stone Cold Crazy (Queen)",
+          "duration": 139,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/57jNlMob42pJrsKGorpdiY",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            3,
+            5
+          ]
+        },
+        {
+          "id": 96,
+          "discTrack": "Disc 2 Track 11",
+          "title": "So What (Anti-Nowhere League)",
+          "duration": 189,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/16RFzt9hlQ3OCPQf5AmhpU",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            3,
+            5
+          ]
+        },
+        {
+          "id": 97,
+          "discTrack": "Disc 2 Track 12",
+          "title": "Killing Time (Sweet Savage)",
+          "duration": 184,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/6uJLRmfn7sXpOR7IT77hdO",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            3,
+            5
+          ]
+        },
+        {
+          "id": 98,
+          "discTrack": "Disc 2 Track 13",
+          "title": "Overkill (Motörhead)",
+          "duration": 245,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/5br84bh8fxhNWjZZBDq1ql",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            3,
+            5
+          ]
+        },
+        {
+          "id": 99,
+          "discTrack": "Disc 2 Track 14",
+          "title": "Damage Case (Motörhead)",
+          "duration": 220,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/03093qusIZTYvDLvZ4WW39",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            3,
+            5
+          ]
+        },
+        {
+          "id": 100,
+          "discTrack": "Disc 2 Track 15",
+          "title": "Stone Dead Forever (Motörhead)",
+          "duration": 292,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/7FEs6tJBucfchOJgjCn7S9",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            3,
+            5
+          ]
+        },
+        {
+          "id": 101,
+          "discTrack": "Disc 2 Track 16",
+          "title": "Too Late Too Late (Motörhead)",
+          "duration": 192,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/5sNlSRWUs6gCyJ4lLooK0f",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            3,
+            5
+          ]
+        }
+      ]
     }
   ]
 }
