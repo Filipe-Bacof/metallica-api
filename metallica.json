@@ -94,6 +94,7 @@
         2,
         3,
         6,
+        7,
         8
       ],
       "tracks": [
@@ -227,6 +228,139 @@
           "composers": [
             1,
             2,
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Ride the Lightning",
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b273b273e0a4432dbcff6df50e05",
+      "spotifyURL": "https://open.spotify.com/intl-pt/album/05DePtm7oQMdL3Uzw2Jmsc",
+      "releaseDate": "1984/07/27",
+      "duration": 2845,
+      "composers": [
+        1,
+        2,
+        3,
+        6,
+        8
+      ],
+      "tracks": [
+        {
+          "id": 11,
+          "discTrack": "Track 1",
+          "title": "Fight Fire With Fire",
+          "duration": 284,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/6ckozbGmOusAnLT2LEbERy",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            6
+          ]
+        },
+        {
+          "id": 12,
+          "discTrack": "Track 2",
+          "title": "Ride the Lightning",
+          "duration": 396,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/4d50VgYqfw1Rd0knRRL3qv",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            6,
+            8
+          ]
+        },
+        {
+          "id": 13,
+          "discTrack": "Track 3",
+          "title": "For Whom the Bell Tolls",
+          "duration": 309,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/2dXsILW8gzkosqleHAvl0v",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            6
+          ]
+        },
+        {
+          "id": 14,
+          "discTrack": "Track 4",
+          "title": "Fade to Black",
+          "duration": 417,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/7866E49sLyI938dEqxi8a4",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            6,
+            3
+          ]
+        },
+        {
+          "id": 15,
+          "discTrack": "Track 5",
+          "title": "Trapped Under Ice",
+          "duration": 244,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/3J8jTThxk8GtxyoupHtyrb",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "id": 16,
+          "discTrack": "Track 6",
+          "title": "Escape",
+          "duration": 263,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/6Kjwg4dmlA5UUqOvWXbiar",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "id": 17,
+          "discTrack": "Track 7",
+          "title": "Creeping Death",
+          "duration": 395,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/4CLRLdxUDPNeO1xCW0U2zC",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            6,
+            3
+          ]
+        },
+        {
+          "id": 18,
+          "discTrack": "Track 8",
+          "title": "The Call of Ktulu",
+          "duration": 533,
+          "lyrics": "",
+          "spotifyURL": "https://open.spotify.com/intl-pt/track/53aVMHWjpz7gB2wGtAv3lD",
+          "officialMusicVideo": null,
+          "composers": [
+            1,
+            2,
+            6,
             8
           ]
         }
