@@ -24,7 +24,23 @@ function getById(id) {
             include: {
                 albums: {
                     orderBy: { albumId: "asc" },
-                    include: { album: { include: { tracks: { orderBy: { id: "asc" } } } } },
+                    select: {
+                        album: {
+                            include: {
+                                tracks: {
+                                    select: {
+                                        id: true,
+                                        discTrack: true,
+                                        title: true,
+                                        duration: true,
+                                        spotifyURL: true,
+                                        officialMusicVideo: true,
+                                    },
+                                    orderBy: { id: "asc" },
+                                },
+                            },
+                        },
+                    },
                 },
             },
         });
@@ -39,7 +55,29 @@ function getByName(name) {
                     mode: "insensitive",
                 },
             },
-            orderBy: { id: "asc" },
+            include: {
+                albums: {
+                    orderBy: { albumId: "asc" },
+                    select: {
+                        album: {
+                            include: {
+                                tracks: {
+                                    select: {
+                                        id: true,
+                                        discTrack: true,
+                                        title: true,
+                                        duration: true,
+                                        spotifyURL: true,
+                                        officialMusicVideo: true,
+                                    },
+                                    orderBy: { id: "asc" },
+                                },
+                            },
+                        },
+                    },
+                },
+            },
+            orderBy: { name: "asc" },
         });
     });
 }

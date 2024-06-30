@@ -12,7 +12,23 @@ async function getById(id: number) {
     include: {
       albums: {
         orderBy: { albumId: "asc" },
-        include: { album: { include: { tracks: { orderBy: { id: "asc" } } } } },
+        select: {
+          album: {
+            include: {
+              tracks: {
+                select: {
+                  id: true,
+                  discTrack: true,
+                  title: true,
+                  duration: true,
+                  spotifyURL: true,
+                  officialMusicVideo: true,
+                },
+                orderBy: { id: "asc" },
+              },
+            },
+          },
+        },
       },
     },
   });
@@ -26,7 +42,29 @@ async function getByName(name: string) {
         mode: "insensitive",
       },
     },
-    orderBy: { id: "asc" },
+    include: {
+      albums: {
+        orderBy: { albumId: "asc" },
+        select: {
+          album: {
+            include: {
+              tracks: {
+                select: {
+                  id: true,
+                  discTrack: true,
+                  title: true,
+                  duration: true,
+                  spotifyURL: true,
+                  officialMusicVideo: true,
+                },
+                orderBy: { id: "asc" },
+              },
+            },
+          },
+        },
+      },
+    },
+    orderBy: { name: "asc" },
   });
 }
 
