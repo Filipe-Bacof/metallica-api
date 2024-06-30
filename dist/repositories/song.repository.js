@@ -12,12 +12,28 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const database_js_1 = require("../config/database.js");
 function getAll() {
     return __awaiter(this, void 0, void 0, function* () {
-        return database_js_1.prisma.song.findMany({});
+        return database_js_1.prisma.song.findMany({
+            select: {
+                id: true,
+                title: true,
+                discTrack: true,
+                duration: true,
+                spotifyURL: true,
+                officialMusicVideo: true,
+                album: { select: { title: true } },
+            },
+        });
     });
 }
 function getById(id) {
     return __awaiter(this, void 0, void 0, function* () {
-        return database_js_1.prisma.song.findUnique({ where: { id } });
+        return database_js_1.prisma.song.findUnique({
+            where: { id },
+            include: {
+                album: true,
+                composers: { include: { bandMember: true } },
+            },
+        });
     });
 }
 function getByTitle(title) {
@@ -29,6 +45,10 @@ function getByTitle(title) {
                     mode: "insensitive",
                 },
             },
+            include: {
+                album: true,
+                composers: { include: { bandMember: true } },
+            },
         });
     });
 }
@@ -38,6 +58,24 @@ function getSongsByAlbumId(id) {
             where: {
                 albumId: id,
             },
+            include: {
+                composers: { include: { bandMember: true } },
+            },
+        });
+    });
+}
+function getRandomSong() {
+    return __awaiter(this, void 0, void 0, function* () {
+        const totalSongs = yield database_js_1.prisma.song.count();
+        const randomId = Math.floor(Math.random() * totalSongs) + 1;
+        return database_js_1.prisma.song.findFirst({
+            where: {
+                id: randomId,
+            },
+            include: {
+                album: true,
+                composers: { include: { bandMember: true } },
+            },
         });
     });
 }
@@ -46,6 +84,7 @@ const songRepository = {
     getById,
     getByTitle,
     getSongsByAlbumId,
+    getRandomSong,
 };
 exports.default = songRepository;
 //# sourceMappingURL=song.repository.js.map

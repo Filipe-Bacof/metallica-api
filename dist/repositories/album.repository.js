@@ -12,12 +12,46 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const database_js_1 = require("../config/database.js");
 function getAll() {
     return __awaiter(this, void 0, void 0, function* () {
-        return database_js_1.prisma.album.findMany({});
+        return database_js_1.prisma.album.findMany({
+            include: {
+                tracks: {
+                    select: {
+                        id: true,
+                        discTrack: true,
+                        title: true,
+                    },
+                    orderBy: { id: "asc" },
+                },
+                composers: {
+                    include: {
+                        bandMember: {
+                            select: {
+                                id: true,
+                                name: true,
+                            },
+                        },
+                    },
+                    orderBy: { bandMember: { id: "asc" } },
+                },
+            },
+            orderBy: { id: "asc" },
+        });
     });
 }
 function getById(id) {
     return __awaiter(this, void 0, void 0, function* () {
-        return database_js_1.prisma.album.findUnique({ where: { id } });
+        return database_js_1.prisma.album.findUnique({
+            where: { id },
+            include: {
+                tracks: {
+                    orderBy: { id: "asc" },
+                },
+                composers: {
+                    include: { bandMember: true },
+                    orderBy: { bandMemberId: "asc" },
+                },
+            },
+        });
     });
 }
 function getByTitle(name) {
@@ -29,6 +63,28 @@ function getByTitle(name) {
                     mode: "insensitive",
                 },
             },
+            include: {
+                tracks: {
+                    select: {
+                        id: true,
+                        discTrack: true,
+                        title: true,
+                    },
+                    orderBy: { id: "asc" },
+                },
+                composers: {
+                    include: {
+                        bandMember: {
+                            select: {
+                                id: true,
+                                name: true,
+                            },
+                        },
+                    },
+                    orderBy: { bandMember: { id: "asc" } },
+                },
+            },
+            orderBy: { id: "asc" },
         });
     });
 }

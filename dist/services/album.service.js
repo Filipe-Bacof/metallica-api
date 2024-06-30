@@ -12,24 +12,20 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-// import { Album } from "../interfaces/Album.interface"
 const album_repository_1 = __importDefault(require("../repositories/album.repository"));
 function getAll() {
     return __awaiter(this, void 0, void 0, function* () {
-        const result = yield album_repository_1.default.getAll();
-        return result;
+        return yield album_repository_1.default.getAll();
     });
 }
 function getById(id) {
     return __awaiter(this, void 0, void 0, function* () {
-        const result = yield album_repository_1.default.getById(id);
-        return result;
+        return yield album_repository_1.default.getById(id);
     });
 }
 function getByTitle(name) {
     return __awaiter(this, void 0, void 0, function* () {
-        const result = yield album_repository_1.default.getByTitle(name);
-        return result;
+        return yield album_repository_1.default.getByTitle(name);
     });
 }
 const albumService = {

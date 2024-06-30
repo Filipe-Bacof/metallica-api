@@ -1,19 +1,15 @@
-// import { Album } from "../interfaces/Album.interface"
 import albumRepository from "../repositories/album.repository";
 
 async function getAll() {
-  const result = await albumRepository.getAll();
-  return result;
+  return await albumRepository.getAll();
 }
 
 async function getById(id: number) {
-  const result = await albumRepository.getById(id);
-  return result;
+  return await albumRepository.getById(id);
 }
 
 async function getByTitle(name: string) {
-  const result = await albumRepository.getByTitle(name);
-  return result;
+  return await albumRepository.getByTitle(name);
 }
 
 const albumService = {

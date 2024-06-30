@@ -14,7 +14,7 @@
 ## Base URL
 
 ```
-https://metallica-api.onrender.com/
+https://metallica-api.onrender.com
 ```
 
 ## Endpoints

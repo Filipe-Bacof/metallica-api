@@ -28,3 +28,8 @@ export async function getSongsByAlbumTitle(req: Request, res: Response) {
   const result = await songService.getSongsByAlbumTitle(title);
   res.status(200).send(result);
 }
+
+export async function getRandomSong(req: Request, res: Response) {
+  const result = await songService.getRandomSong();
+  res.status(200).send(result);
+}

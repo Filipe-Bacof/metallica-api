@@ -5,7 +5,7 @@ import { stringToDate } from "../src/utils/dateFunctions";
 const prisma = new PrismaClient();
 
 const consoleEachItem = false; // log após cada inserção
-const consoleEachTable = true; // log após a inserção completa em cada tabela
+const consoleEachTable = false; // log após a inserção completa em cada tabela
 
 const metallicaData = metallicaJSON;
 // console.log(metallicaData);
@@ -149,8 +149,10 @@ async function run() {
 run()
   .then(async () => {
     await prisma.$disconnect();
+    console.log("Seeder Executado com sucesso!");
   })
   .catch(async (e) => {
+    console.log("Falha na Execução do Seeder:");
     console.error(e);
     await prisma.$disconnect();
     process.exit(1);

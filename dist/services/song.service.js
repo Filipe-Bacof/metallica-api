@@ -18,7 +18,10 @@ const album_repository_1 = __importDefault(require("../repositories/album.reposi
 function getAll() {
     return __awaiter(this, void 0, void 0, function* () {
         const result = yield song_repository_1.default.getAll();
-        return result;
+        const orderedResult = result.sort((a, b) => {
+            return a.id - b.id;
+        });
+        return orderedResult;
     });
 }
 function getById(id) {
@@ -30,21 +33,20 @@ function getById(id) {
 function getByTitle(title) {
     return __awaiter(this, void 0, void 0, function* () {
         const result = yield song_repository_1.default.getByTitle(title);
-        return result;
+        const orderedResult = result.sort((a, b) => {
+            return a.id - b.id;
+        });
+        return orderedResult;
     });
 }
 function getSongsByAlbumTitle(title) {
     return __awaiter(this, void 0, void 0, function* () {
-        // Testar isso com Load e Reload
-        const album = yield album_repository_1.default.getByTitle(title);
-        if (album.length > 1) {
-            throw {
-                status: 401,
-                message: "Encontrado mais de um album com esse nome, seja mais específico.",
-            };
-        }
-        const result = yield song_repository_1.default.getSongsByAlbumId(album[0].id);
-        return result;
+        return yield album_repository_1.default.getByTitle(title);
+    });
+}
+function getRandomSong() {
+    return __awaiter(this, void 0, void 0, function* () {
+        return yield song_repository_1.default.getRandomSong();
     });
 }
 const songService = {
@@ -52,6 +54,7 @@ const songService = {
     getById,
     getByTitle,
     getSongsByAlbumTitle,
+    getRandomSong,
 };
 exports.default = songService;
 //# sourceMappingURL=song.service.js.map

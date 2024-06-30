@@ -1,0 +1,263 @@
+{
+	"info": {
+		"_postman_id": "605cc2e8-7ba9-4f56-a3d0-69baff154903",
+		"name": "Metallica API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25133769"
+	},
+	"item": [
+		{
+			"name": "Band Members",
+			"item": [
+				{
+					"name": "Get All Members",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}/member",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"member"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Member by ID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}/member/id/1",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"member",
+								"id",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Members by Name",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}/member/name/james",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"member",
+								"name",
+								"james"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Albuns",
+			"item": [
+				{
+					"name": "Get All Albuns",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}/album",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"album"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Album by ID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}/album/id/2",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"album",
+								"id",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Albuns by Title",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}/album/title/puppets",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"album",
+								"title",
+								"puppets"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Songs",
+			"item": [
+				{
+					"name": "Get All Songs",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}/song",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"song"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Song by ID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}/song/id/6",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"song",
+								"id",
+								"6"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Song by Title",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}/song/title/orion",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"song",
+								"title",
+								"orion"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Songs by Album Title",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}/song/album/load",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"song",
+								"album",
+								"load"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get Random Song",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}/song/random",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"song",
+								"random"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "URL",
+			"value": "http://localhost:3005"
+		},
+		{
+			"key": "DEVELOPMENT",
+			"value": "http://localhost:3005",
+			"type": "string"
+		},
+		{
+			"key": "PRODUCTION",
+			"value": "https://metallica-api.onrender.com",
+			"type": "string"
+		}
+	]
+}

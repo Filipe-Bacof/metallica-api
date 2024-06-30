@@ -1,11 +1,45 @@
 import { prisma } from "../config/database.js";
 
 async function getAll() {
-  return prisma.album.findMany({});
+  return prisma.album.findMany({
+    include: {
+      tracks: {
+        select: {
+          id: true,
+          discTrack: true,
+          title: true,
+        },
+        orderBy: { id: "asc" },
+      },
+      composers: {
+        include: {
+          bandMember: {
+            select: {
+              id: true,
+              name: true,
+            },
+          },
+        },
+        orderBy: { bandMember: { id: "asc" } },
+      },
+    },
+    orderBy: { id: "asc" },
+  });
 }
 
 async function getById(id: number) {
-  return prisma.album.findUnique({ where: { id } });
+  return prisma.album.findUnique({
+    where: { id },
+    include: {
+      tracks: {
+        orderBy: { id: "asc" },
+      },
+      composers: {
+        include: { bandMember: true },
+        orderBy: { bandMemberId: "asc" },
+      },
+    },
+  });
 }
 
 async function getByTitle(name: string) {
@@ -16,6 +50,28 @@ async function getByTitle(name: string) {
         mode: "insensitive",
       },
     },
+    include: {
+      tracks: {
+        select: {
+          id: true,
+          discTrack: true,
+          title: true,
+        },
+        orderBy: { id: "asc" },
+      },
+      composers: {
+        include: {
+          bandMember: {
+            select: {
+              id: true,
+              name: true,
+            },
+          },
+        },
+        orderBy: { bandMember: { id: "asc" } },
+      },
+    },
+    orderBy: { id: "asc" },
   });
 }
 

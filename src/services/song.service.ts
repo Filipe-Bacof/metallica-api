@@ -4,7 +4,10 @@ import albumRepository from "../repositories/album.repository";
 
 async function getAll() {
   const result = await songRepository.getAll();
-  return result;
+  const orderedResult = result.sort((a, b) => {
+    return a.id - b.id;
+  });
+  return orderedResult;
 }
 
 async function getById(id: number) {
@@ -14,21 +17,18 @@ async function getById(id: number) {
 
 async function getByTitle(title: string) {
   const result = await songRepository.getByTitle(title);
-  return result;
+  const orderedResult = result.sort((a, b) => {
+    return a.id - b.id;
+  });
+  return orderedResult;
 }
 
 async function getSongsByAlbumTitle(title: string) {
-  // Testar isso com Load e Reload
-  const album = await albumRepository.getByTitle(title);
-  if (album.length > 1) {
-    throw {
-      status: 401,
-      message:
-        "Encontrado mais de um album com esse nome, seja mais específico.",
-    };
-  }
-  const result = await songRepository.getSongsByAlbumId(album[0].id);
-  return result;
+  return await albumRepository.getByTitle(title);
+}
+
+async function getRandomSong() {
+  return await songRepository.getRandomSong();
 }
 
 const songService = {
@@ -36,6 +36,7 @@ const songService = {
   getById,
   getByTitle,
   getSongsByAlbumTitle,
+  getRandomSong,
 };
 
 export default songService;

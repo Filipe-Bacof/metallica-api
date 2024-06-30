@@ -16,6 +16,7 @@ exports.getAllSongs = getAllSongs;
 exports.getSongById = getSongById;
 exports.getSongsByTitle = getSongsByTitle;
 exports.getSongsByAlbumTitle = getSongsByAlbumTitle;
+exports.getRandomSong = getRandomSong;
 // import { Song } from "../interfaces/Song.interface"
 const song_service_1 = __importDefault(require("../services/song.service"));
 function getAllSongs(_req, res) {
@@ -43,6 +44,12 @@ function getSongsByAlbumTitle(req, res) {
     return __awaiter(this, void 0, void 0, function* () {
         const { title } = req.params;
         const result = yield song_service_1.default.getSongsByAlbumTitle(title);
+        res.status(200).send(result);
+    });
+}
+function getRandomSong(req, res) {
+    return __awaiter(this, void 0, void 0, function* () {
+        const result = yield song_service_1.default.getRandomSong();
         res.status(200).send(result);
     });
 }

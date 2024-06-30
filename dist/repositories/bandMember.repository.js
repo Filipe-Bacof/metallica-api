@@ -12,12 +12,22 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const database_js_1 = require("../config/database.js");
 function getAll() {
     return __awaiter(this, void 0, void 0, function* () {
-        return database_js_1.prisma.bandMember.findMany({});
+        return database_js_1.prisma.bandMember.findMany({
+            orderBy: { id: "asc" },
+        });
     });
 }
 function getById(id) {
     return __awaiter(this, void 0, void 0, function* () {
-        return database_js_1.prisma.bandMember.findUnique({ where: { id } });
+        return database_js_1.prisma.bandMember.findUnique({
+            where: { id },
+            include: {
+                albums: {
+                    orderBy: { albumId: "asc" },
+                    include: { album: { include: { tracks: { orderBy: { id: "asc" } } } } },
+                },
+            },
+        });
     });
 }
 function getByName(name) {
@@ -29,6 +39,7 @@ function getByName(name) {
                     mode: "insensitive",
                 },
             },
+            orderBy: { id: "asc" },
         });
     });
 }

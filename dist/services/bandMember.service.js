@@ -12,24 +12,20 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-// import { BandMember } from "../interfaces/BandMember.interface"
 const bandMember_repository_1 = __importDefault(require("../repositories/bandMember.repository"));
 function getAll() {
     return __awaiter(this, void 0, void 0, function* () {
-        const result = yield bandMember_repository_1.default.getAll();
-        return result;
+        return yield bandMember_repository_1.default.getAll();
     });
 }
 function getById(id) {
     return __awaiter(this, void 0, void 0, function* () {
-        const result = yield bandMember_repository_1.default.getById(id);
-        return result;
+        return yield bandMember_repository_1.default.getById(id);
     });
 }
 function getByName(name) {
     return __awaiter(this, void 0, void 0, function* () {
-        const result = yield bandMember_repository_1.default.getByName(name);
-        return result;
+        return yield bandMember_repository_1.default.getByName(name);
     });
 }
 const bandMemberService = {
