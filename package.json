@@ -23,6 +23,9 @@
     "build",
     "add-build"
   ],
+  "prisma": {
+    "seed": "tsx prisma/seed.ts"
+  },
   "dependencies": {
     "@prisma/client": "^5.16.1",
     "cors": "^2.8.5",
