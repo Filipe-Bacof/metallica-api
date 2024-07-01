@@ -41,3 +41,24 @@ filipebacof@gmail.com
 - You can access the exported postman file called `Metallica API.postman_collection.json` or access one of these links:
 - [Documentation in English](https://github.com/Filipe-Bacof/metallica-api/blob/main/Documentation.md)
 - [Documentation in Portuguese](https://github.com/Filipe-Bacof/metallica-api/blob/main/Documentação.md)
+
+## Creating a local database with all production data
+
+- You can install PostgreSQL locally and populate it with the seed script I created.
+- To do this, you first need to create a local or cloud database, I can recommend creating it through [Vercel](https://vercel.com/docs/storage/vercel-postgres) or [ElephantSQL](https:/ /www.elephantsql.com/index.html), both have free plans.
+- After that, create a file called `.env` here in the project root folder and place your connection string with your database, it will look something like this:
+
+```
+DATABASE_URL="postgres://user:password@host:port/dbname?sslmode=require&connection_limit=30&pool_timeout=60"
+
+# user: Your database username.
+# password: Your database password.
+# host: The address of the database server.
+# port: The database server port.
+# dbname: The name of your database.
+```
+
+- At the end of the connection string, add the following parameters to optimize performance and avoid blocking requests: `connection_limit=30` and `pool_timeout=60` as in the example, separating the parameters with the `&` character.
+- With the database configured and the connection string defined, you can run `npx prisma generate` to apply the migrations.
+- With this done, you can now run the seed script to populate the database with production data with the command `npx prisma db seed`
+- It is worth mentioning that I left at the top of the seed file some constants that show logs after the insertions, feel free to change the values ​​to `true` and view the insertions in your terminal.

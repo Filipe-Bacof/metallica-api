@@ -43,3 +43,24 @@ filipebacof@gmail.com
 - Você pode acessar o arquivo exportado do postman chamado `Metallica API.postman_collection.json` ou acessar algum desses links:
 - [Documentação em inglês](https://github.com/Filipe-Bacof/metallica-api/blob/main/Documentation.md)
 - [Documentação em português](https://github.com/Filipe-Bacof/metallica-api/blob/main/Documentação.md)
+
+## Criando um banco local com todos os dados de produção
+
+- Você pode instalar o PostgreSQL localmente e popular ele com o script de seed que eu criei.
+- Para isso primeiro você precisa criar um banco de dados local ou na nuvem, posso recomendar criar através da [Vercel](https://vercel.com/docs/storage/vercel-postgres) ou do [ElephantSQL](https://www.elephantsql.com/index.html), ambos possuem planos gratuitos.
+- Após isso crie um aquivo chamado `.env` aqui na pasta raiz do projeto e coloque a sua string de conexão com o seu banco de dados, vai ficar algo parecido com isso:
+
+```
+DATABASE_URL="postgres://user:password@host:port/dbname?sslmode=require&connection_limit=30&pool_timeout=60"
+
+# user: Seu nome de usuário do banco de dados.
+# password: Sua senha do banco de dados.
+# host: O endereço do servidor do banco de dados.
+# port: A porta do servidor do banco de dados.
+# dbname: O nome do seu banco de dados.
+```
+
+- Ao final da string de conexão, adicione os seguintes parâmetros para otimizar a performance e evitar bloqueios de requisições: `connection_limit=30` e `pool_timeout=60` igual no exemplo, separanto os parâmetros pelo caractere `&`.
+- Com o banco de dados configurado e a string de conexão definida, você pode rodar `npx prisma generate` para aplicar as migrações.
+- Com isso feito você já pode executar o script de seed para popular o banco com os dados de produção com o comando `npx prisma db seed`
+- Vale ressaltar que eu deixei no topo do arquivo de seed algumas constantes que mostram logs após as inserções, fique a vontade para modificar os valores para `true` e visualizar no seu terminal as inserções.
