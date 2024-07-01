@@ -17,40 +17,79 @@ exports.getSongById = getSongById;
 exports.getSongsByTitle = getSongsByTitle;
 exports.getSongsByAlbumTitle = getSongsByAlbumTitle;
 exports.getRandomSong = getRandomSong;
-// import { Song } from "../interfaces/Song.interface"
 const song_service_1 = __importDefault(require("../services/song.service"));
+const stringFunctions_1 = require("../utils/stringFunctions");
 function getAllSongs(_req, res) {
     return __awaiter(this, void 0, void 0, function* () {
-        const result = yield song_service_1.default.getAll();
-        res.status(200).send(result);
+        try {
+            const result = yield song_service_1.default.getAll();
+            res.status(200).send(result);
+        }
+        catch (error) {
+            res.status(500).send({ message: "Error fetching songs." });
+        }
     });
 }
 function getSongById(req, res) {
     return __awaiter(this, void 0, void 0, function* () {
         const { id } = req.params;
-        const idSong = Number(id);
-        const result = yield song_service_1.default.getById(idSong);
-        res.status(200).send(result);
+        if (!(0, stringFunctions_1.validateNumericString)(id)) {
+            return res
+                .status(400)
+                .send({ message: "The provided id cannot contain letters." });
+        }
+        try {
+            const result = yield song_service_1.default.getById(Number(id));
+            res.status(200).send(result);
+        }
+        catch (error) {
+            res.status(500).send({ message: "Error fetching song by id." });
+        }
     });
 }
 function getSongsByTitle(req, res) {
     return __awaiter(this, void 0, void 0, function* () {
         const { title } = req.params;
-        const result = yield song_service_1.default.getByTitle(title);
-        res.status(200).send(result);
+        if (!(0, stringFunctions_1.validateTextString)(title)) {
+            return res.status(400).send({
+                message: "Only titles with more than 3 characters are allowed.",
+            });
+        }
+        try {
+            const result = yield song_service_1.default.getByTitle(title);
+            res.status(200).send(result);
+        }
+        catch (error) {
+            res.status(500).send({ message: "Error fetching songs by title." });
+        }
     });
 }
 function getSongsByAlbumTitle(req, res) {
     return __awaiter(this, void 0, void 0, function* () {
         const { title } = req.params;
-        const result = yield song_service_1.default.getSongsByAlbumTitle(title);
-        res.status(200).send(result);
+        if (!(0, stringFunctions_1.validateTextString)(title)) {
+            return res.status(400).send({
+                message: "Only titles with more than 3 characters are allowed.",
+            });
+        }
+        try {
+            const result = yield song_service_1.default.getSongsByAlbumTitle(title);
+            res.status(200).send(result);
+        }
+        catch (error) {
+            res.status(500).send({ message: "Error fetching songs by album title." });
+        }
     });
 }
-function getRandomSong(req, res) {
+function getRandomSong(_req, res) {
     return __awaiter(this, void 0, void 0, function* () {
-        const result = yield song_service_1.default.getRandomSong();
-        res.status(200).send(result);
+        try {
+            const result = yield song_service_1.default.getRandomSong();
+            res.status(200).send(result);
+        }
+        catch (error) {
+            res.status(500).send({ message: "Error fetching random song." });
+        }
     });
 }
 //# sourceMappingURL=song.controller.js.map

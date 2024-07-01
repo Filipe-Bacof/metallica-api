@@ -15,27 +15,51 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.getAllMembers = getAllMembers;
 exports.getMemberById = getMemberById;
 exports.getMembersByName = getMembersByName;
-// import { BandMember } from "../interfaces/BandMember.interface"
 const bandMember_service_1 = __importDefault(require("../services/bandMember.service"));
+const stringFunctions_1 = require("../utils/stringFunctions");
 function getAllMembers(_req, res) {
     return __awaiter(this, void 0, void 0, function* () {
-        const result = yield bandMember_service_1.default.getAll();
-        res.status(200).send(result);
+        try {
+            const result = yield bandMember_service_1.default.getAll();
+            res.status(200).send(result);
+        }
+        catch (error) {
+            res.status(500).send({ message: "Error fetching band members." });
+        }
     });
 }
 function getMemberById(req, res) {
     return __awaiter(this, void 0, void 0, function* () {
         const { id } = req.params;
-        const idMember = Number(id);
-        const result = yield bandMember_service_1.default.getById(idMember);
-        res.status(200).send(result);
+        if (!(0, stringFunctions_1.validateNumericString)(id)) {
+            return res
+                .status(400)
+                .send({ message: "The provided id cannot contain letters." });
+        }
+        try {
+            const result = yield bandMember_service_1.default.getById(Number(id));
+            res.status(200).send(result);
+        }
+        catch (error) {
+            res.status(500).send({ message: "Error fetching band member by id." });
+        }
     });
 }
 function getMembersByName(req, res) {
     return __awaiter(this, void 0, void 0, function* () {
         const { name } = req.params;
-        const result = yield bandMember_service_1.default.getByName(name);
-        res.status(200).send(result);
+        if (!(0, stringFunctions_1.validateTextString)(name)) {
+            return res.status(400).send({
+                message: "Only names with more than 3 characters are allowed.",
+            });
+        }
+        try {
+            const result = yield bandMember_service_1.default.getByName(name);
+            res.status(200).send(result);
+        }
+        catch (error) {
+            res.status(500).send({ message: "Error fetching band members by name." });
+        }
     });
 }
 //# sourceMappingURL=bandMember.controller.js.map
