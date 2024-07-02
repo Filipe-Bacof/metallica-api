@@ -5,11 +5,37 @@ import {
   validateNumericString,
   validateTextString,
 } from "../utils/stringFunctions";
+import {
+  calculateTotalPages,
+  generateUrlPrevAndNext,
+  isPageParamNumberValid,
+} from "../utils/urlFunctions";
 
-export async function getAllAlbuns(_req: Request, res: Response) {
+export async function getAllAlbuns(req: Request, res: Response) {
+  const page = req.query.page as string;
+
+  if (page && !validateNumericString(page)) {
+    return res
+      .status(400)
+      .send({ message: "The provided page cannot contain letters." });
+  }
+
+  const pageNumber = page ? Number(page) : 1;
+  const totalEntries = await albumService.checkNumberOfEntries();
+  const totalPages = calculateTotalPages(totalEntries, 3);
+
+  if (pageNumber && !isPageParamNumberValid(pageNumber, totalPages)) {
+    return res
+      .status(400)
+      .send({ message: "The provided page number doesn't exist." });
+  }
+
   try {
-    const result = await albumService.getAll();
-    res.status(200).send(result);
+    const result = await albumService.getAll(pageNumber);
+    res.status(200).send({
+      navigation: generateUrlPrevAndNext("album", pageNumber, totalPages),
+      data: result,
+    });
   } catch (error) {
     res.status(500).send({ message: "Error fetching albums." });
   }

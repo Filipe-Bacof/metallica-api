@@ -4,7 +4,7 @@ function validateNumericString(input: string): boolean {
 }
 
 function validateTextString(input: string): boolean {
-  const textRegex = /^[a-zA-Z]{3,}$/;
+  const textRegex = /^[a-zA-Z0-9]{3,}$/;
   return textRegex.test(input);
 }
 

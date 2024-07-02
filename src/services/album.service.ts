@@ -1,7 +1,7 @@
 import albumRepository from "../repositories/album.repository";
 
-async function getAll() {
-  return await albumRepository.getAll();
+async function getAll(page: number) {
+  return await albumRepository.getAll(page);
 }
 
 async function getById(id: number) {
@@ -12,10 +12,15 @@ async function getByTitle(name: string) {
   return await albumRepository.getByTitle(name);
 }
 
+async function checkNumberOfEntries() {
+  return await albumRepository.checkNumberOfEntries();
+}
+
 const albumService = {
   getAll,
   getById,
   getByTitle,
+  checkNumberOfEntries,
 };
 
 export default albumService;

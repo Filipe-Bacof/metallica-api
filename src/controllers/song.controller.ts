@@ -4,11 +4,37 @@ import {
   validateNumericString,
   validateTextString,
 } from "../utils/stringFunctions";
+import {
+  calculateTotalPages,
+  isPageParamNumberValid,
+  generateUrlPrevAndNext,
+} from "../utils/urlFunctions";
 
-export async function getAllSongs(_req: Request, res: Response) {
+export async function getAllSongs(req: Request, res: Response) {
+  const page = req.query.page as string;
+
+  if (page && !validateNumericString(page)) {
+    return res
+      .status(400)
+      .send({ message: "The provided page cannot contain letters." });
+  }
+
+  const pageNumber = page ? Number(page) : 1;
+  const totalEntries = await songService.checkNumberOfEntries();
+  const totalPages = calculateTotalPages(totalEntries, 5);
+
+  if (pageNumber && !isPageParamNumberValid(pageNumber, totalPages)) {
+    return res
+      .status(400)
+      .send({ message: "The provided page number doesn't exist." });
+  }
+
   try {
-    const result = await songService.getAll();
-    res.status(200).send(result);
+    const result = await songService.getAll(pageNumber);
+    res.status(200).send({
+      navigation: generateUrlPrevAndNext("song", pageNumber, totalPages),
+      data: result,
+    });
   } catch (error) {
     res.status(500).send({ message: "Error fetching songs." });
   }

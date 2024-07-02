@@ -2,8 +2,8 @@
 import songRepository from "../repositories/song.repository";
 import albumRepository from "../repositories/album.repository";
 
-async function getAll() {
-  const result = await songRepository.getAll();
+async function getAll(page: number) {
+  const result = await songRepository.getAll(page);
   const orderedResult = result.sort((a, b) => {
     return a.id - b.id;
   });
@@ -31,12 +31,17 @@ async function getRandomSong() {
   return await songRepository.getRandomSong();
 }
 
+async function checkNumberOfEntries() {
+  return await songRepository.checkNumberOfEntries();
+}
+
 const songService = {
   getAll,
   getById,
   getByTitle,
   getSongsByAlbumTitle,
   getRandomSong,
+  checkNumberOfEntries,
 };
 
 export default songService;

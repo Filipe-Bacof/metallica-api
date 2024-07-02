@@ -13,9 +13,9 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const album_repository_1 = __importDefault(require("../repositories/album.repository"));
-function getAll() {
+function getAll(page) {
     return __awaiter(this, void 0, void 0, function* () {
-        return yield album_repository_1.default.getAll();
+        return yield album_repository_1.default.getAll(page);
     });
 }
 function getById(id) {
@@ -28,10 +28,16 @@ function getByTitle(name) {
         return yield album_repository_1.default.getByTitle(name);
     });
 }
+function checkNumberOfEntries() {
+    return __awaiter(this, void 0, void 0, function* () {
+        return yield album_repository_1.default.checkNumberOfEntries();
+    });
+}
 const albumService = {
     getAll,
     getById,
     getByTitle,
+    checkNumberOfEntries,
 };
 exports.default = albumService;
 //# sourceMappingURL=album.service.js.map

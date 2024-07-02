@@ -1,7 +1,12 @@
 import { prisma } from "../config/database.js";
 
-async function getAll() {
+async function getAll(page: number) {
+  const resultsPerPage = 3;
+  const skip = (page - 1) * resultsPerPage;
+
   return prisma.album.findMany({
+    skip: skip,
+    take: resultsPerPage,
     include: {
       tracks: {
         select: {
@@ -75,10 +80,16 @@ async function getByTitle(name: string) {
   });
 }
 
+async function checkNumberOfEntries(): Promise<number> {
+  const result = await prisma.album.count();
+  return result;
+}
+
 const albumRepository = {
   getAll,
   getById,
   getByTitle,
+  checkNumberOfEntries,
 };
 
 export default albumRepository;

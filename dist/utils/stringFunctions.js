@@ -7,7 +7,7 @@ function validateNumericString(input) {
     return numericRegex.test(input);
 }
 function validateTextString(input) {
-    const textRegex = /^[a-zA-Z]{3,}$/;
+    const textRegex = /^[a-zA-Z0-9]{3,}$/;
     return textRegex.test(input);
 }
 //# sourceMappingURL=stringFunctions.js.map

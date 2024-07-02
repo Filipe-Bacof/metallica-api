@@ -10,9 +10,13 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const database_js_1 = require("../config/database.js");
-function getAll() {
+function getAll(page) {
     return __awaiter(this, void 0, void 0, function* () {
+        const resultsPerPage = 5;
+        const skip = (page - 1) * resultsPerPage;
         return database_js_1.prisma.song.findMany({
+            skip: skip,
+            take: resultsPerPage,
             select: {
                 id: true,
                 title: true,
@@ -66,7 +70,7 @@ function getSongsByAlbumId(id) {
 }
 function getRandomSong() {
     return __awaiter(this, void 0, void 0, function* () {
-        const totalSongs = yield database_js_1.prisma.song.count();
+        const totalSongs = yield checkNumberOfEntries();
         const randomId = Math.floor(Math.random() * totalSongs) + 1;
         return database_js_1.prisma.song.findFirst({
             where: {
@@ -79,12 +83,19 @@ function getRandomSong() {
         });
     });
 }
+function checkNumberOfEntries() {
+    return __awaiter(this, void 0, void 0, function* () {
+        const result = yield database_js_1.prisma.song.count();
+        return result;
+    });
+}
 const songRepository = {
     getAll,
     getById,
     getByTitle,
     getSongsByAlbumId,
     getRandomSong,
+    checkNumberOfEntries,
 };
 exports.default = songRepository;
 //# sourceMappingURL=song.repository.js.map

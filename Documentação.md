@@ -14,7 +14,7 @@ https://metallica-api.onrender.com
 
 #### Get All Members:
 
-- Retorna todos os membros sem paginação
+- Retorna todos os membros sem paginação.
 - Endpoint: `/member`
 
 ```json
@@ -35,7 +35,7 @@ https://metallica-api.onrender.com
 
 #### Get Member By Id:
 
-- Retorna um membro apenas
+- Retorna um membro apenas.
 - Endpoint: `/member/id/6`
 
 ```json
@@ -76,7 +76,7 @@ https://metallica-api.onrender.com
 
 #### Get Members By Name:
 
-- Retorna os membros que possuirem o nome pesquisado
+- Retorna os membros que possuirem o nome pesquisado.
 - Endpoint: `/member/name/lars`
 
 ```json
@@ -119,45 +119,51 @@ https://metallica-api.onrender.com
 
 #### Get All Albuns:
 
-- Paginação vai ser implementada nesse endpoint!
-- Retorna todos os albuns
+- Possui paginação, caso não informada a página, por padrão retorna a primeira.
+- Retorna todos os albuns.
 - Endpoint: `/album`
 
 ```json
-[
-  {
-    "id": 1,
-    "title": "Kill 'Em All",
-    "albumCover": "https://i.scdn.co/image/ab67616d0000b27320292e6cce666a69ba5a86fb",
-    "spotifyURL": "https://open.spotify.com/intl-pt/album/1aGapZGHBovnmhwqVNI6JZ",
-    "releaseDate": "1983-07-25T03:00:00.000Z",
-    "tracks": [
-      {
-        "id": 1,
-        "discTrack": "Track 1",
-        "title": "Hit the Lights"
-      }
-      // OTHER TRACKS
-    ],
-    "composers": [
-      {
-        "bandMemberId": 1,
-        "albumId": 1,
-        "bandMember": {
+{
+  "navigation": {
+    "prev": null,
+    "next": "baseurl/album?page=2"
+  },
+  "data": [
+    {
+      "id": 1,
+      "title": "Kill 'Em All",
+      "albumCover": "https://i.scdn.co/image/ab67616d0000b27320292e6cce666a69ba5a86fb",
+      "spotifyURL": "https://open.spotify.com/intl-pt/album/1aGapZGHBovnmhwqVNI6JZ",
+      "releaseDate": "1983-07-25T03:00:00.000Z",
+      "tracks": [
+        {
           "id": 1,
-          "name": "James Alan Hetfield"
+          "discTrack": "Track 1",
+          "title": "Hit the Lights"
         }
-      }
-      // OTHER COMPOSERS
-    ]
-  }
-  // OTHER ALBUNS
-]
+        // OTHER TRACKS
+      ],
+      "composers": [
+        {
+          "bandMemberId": 1,
+          "albumId": 1,
+          "bandMember": {
+            "id": 1,
+            "name": "James Alan Hetfield"
+          }
+        }
+        // OTHER COMPOSERS
+      ]
+    }
+    // OTHER ALBUNS
+  ]
+}
 ```
 
 #### Get Album by ID:
 
-- Retorna um album apenas
+- Retorna um album apenas.
 - Endpoint: `/album/id/5`
 
 ```json
@@ -202,7 +208,7 @@ https://metallica-api.onrender.com
 
 #### Get Albuns by Name:
 
-- Retorna os albuns que possuirem o nome pesquisado
+- Retorna os albuns que possuirem o nome pesquisado.
 - Endpoint: `/album/title/puppets`
 
 ```json
@@ -241,32 +247,37 @@ https://metallica-api.onrender.com
 
 #### Get All Songs:
 
-- Paginação vai ser implementada nesse endpoint!
-- Por razões de performance, as letras das musicas não virão nesse endpoint enquanto não for implementada a paginação.
-- Retorna todas as músicas
+- Possui paginação, caso não informada a página, por padrão retorna a primeira.
+- Retorna todas as músicas.
 - Endpoint: `/song`
 
 ```json
-[
-  {
-    "id": 1,
-    "title": "Hit the Lights",
-    "discTrack": "Track 1",
-    "duration": 255,
-    "spotifyURL": "https://open.spotify.com/intl-pt/track/4hh0IO5OHTigfnPTpDleL7",
-    "officialMusicVideo": "https://www.youtube.com/watch?v=uFSN39nS9qA",
-    "album": {
-      "title": "Kill 'Em All"
+{
+  "navigation": {
+    "prev": null,
+    "next": "baseurl/song?page=2"
+  },
+  "data": [
+    {
+      "id": 1,
+      "title": "Hit the Lights",
+      "discTrack": "Track 1",
+      "duration": 255,
+      "spotifyURL": "https://open.spotify.com/intl-pt/track/4hh0IO5OHTigfnPTpDleL7",
+      "officialMusicVideo": "https://www.youtube.com/watch?v=uFSN39nS9qA",
+      "album": {
+        "title": "Kill 'Em All"
+      }
     }
-  }
-  // OTHER SONGS
-  // ALL THE SONGS, FROM KILL EM ALL TO 72 SEASONS
-]
+    // OTHER SONGS
+    // ALL THE SONGS, FROM KILL EM ALL TO 72 SEASONS
+  ]
+}
 ```
 
 #### Get Song by ID:
 
-- Retorna uma música apenas
+- Retorna uma música apenas.
 - Endpoint: `/song/id/39`
 
 ```json
@@ -308,7 +319,7 @@ https://metallica-api.onrender.com
 
 #### Get Songs by Name:
 
-- Retorna as músicas que possuirem o nome pesquisado
+- Retorna as músicas que possuirem o nome pesquisado.
 - Endpoint: `/song/title/harvester`
 
 ```json
@@ -352,8 +363,8 @@ https://metallica-api.onrender.com
 
 #### Get Songs by Album Title:
 
-- Retorna as músicas dos albuns que possuirem o nome pesquisado
-- Sem letras de musicas
+- Retorna as músicas dos albuns que possuirem o nome pesquisado.
+- Sem letras de musicas.
 - Endpoint: `/song/album/magnetic`
 
 ```json
@@ -415,7 +426,7 @@ https://metallica-api.onrender.com
 
 #### Get a Random Song:
 
-- Retorna uma música aleatória, apenas uma música por chamada
+- Retorna uma música aleatória, apenas uma música por chamada.
 - Endpoint: `/song/random`
 
 ```json

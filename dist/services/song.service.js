@@ -15,9 +15,9 @@ Object.defineProperty(exports, "__esModule", { value: true });
 // import { Song } from "../interfaces/Song.interface"
 const song_repository_1 = __importDefault(require("../repositories/song.repository"));
 const album_repository_1 = __importDefault(require("../repositories/album.repository"));
-function getAll() {
+function getAll(page) {
     return __awaiter(this, void 0, void 0, function* () {
-        const result = yield song_repository_1.default.getAll();
+        const result = yield song_repository_1.default.getAll(page);
         const orderedResult = result.sort((a, b) => {
             return a.id - b.id;
         });
@@ -49,12 +49,18 @@ function getRandomSong() {
         return yield song_repository_1.default.getRandomSong();
     });
 }
+function checkNumberOfEntries() {
+    return __awaiter(this, void 0, void 0, function* () {
+        return yield song_repository_1.default.checkNumberOfEntries();
+    });
+}
 const songService = {
     getAll,
     getById,
     getByTitle,
     getSongsByAlbumTitle,
     getRandomSong,
+    checkNumberOfEntries,
 };
 exports.default = songService;
 //# sourceMappingURL=song.service.js.map

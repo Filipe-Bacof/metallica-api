@@ -27,7 +27,7 @@ filipebacof@gmail.com
 
 - This project will be updated eventually and some things will be implemented soon, such as
 - [x] Seeder for database initialization.
-- [ ] Pagination of results for some endpoints.
+- [x] Pagination of results for some endpoints.
 - [ ] Endpoints to perform CRUD operations, obviously with authentication.
 
 ## About deployment
@@ -38,7 +38,7 @@ filipebacof@gmail.com
 
 ## Endpoint documentation
 
-- You can access the exported postman file called `Metallica API.postman_collection.json` or access one of these links:
+- You can access the [exported postman file](https://github.com/Filipe-Bacof/metallica-api/blob/main/Metallica%20API.postman_collection.json) called `Metallica API.postman_collection.json` or access one of these links:
 - [Documentation in English](https://github.com/Filipe-Bacof/metallica-api/blob/main/Documentation.md)
 - [Documentation in Portuguese](https://github.com/Filipe-Bacof/metallica-api/blob/main/Documentação.md)
 

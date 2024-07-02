@@ -32,14 +32,14 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{URL}}/member/id/1",
+							"raw": "{{URL}}/member/id/6",
 							"host": [
 								"{{URL}}"
 							],
 							"path": [
 								"member",
 								"id",
-								"1"
+								"6"
 							]
 						}
 					},
@@ -51,14 +51,14 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{URL}}/member/name/james",
+							"raw": "{{URL}}/member/name/lars",
 							"host": [
 								"{{URL}}"
 							],
 							"path": [
 								"member",
 								"name",
-								"james"
+								"lars"
 							]
 						}
 					},
@@ -75,12 +75,18 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{URL}}/album",
+							"raw": "{{URL}}/album?page=1",
 							"host": [
 								"{{URL}}"
 							],
 							"path": [
 								"album"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "1"
+								}
 							]
 						}
 					},
@@ -92,14 +98,14 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{URL}}/album/id/2",
+							"raw": "{{URL}}/album/id/5",
 							"host": [
 								"{{URL}}"
 							],
 							"path": [
 								"album",
 								"id",
-								"2"
+								"5"
 							]
 						}
 					},
@@ -135,12 +141,18 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{URL}}/song",
+							"raw": "{{URL}}/song?page=33",
 							"host": [
 								"{{URL}}"
 							],
 							"path": [
 								"song"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "33"
+								}
 							]
 						}
 					},
@@ -152,14 +164,14 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{URL}}/song/id/6",
+							"raw": "{{URL}}/song/id/39",
 							"host": [
 								"{{URL}}"
 							],
 							"path": [
 								"song",
 								"id",
-								"6"
+								"39"
 							]
 						}
 					},
@@ -171,14 +183,14 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{URL}}/song/title/orion",
+							"raw": "{{URL}}/song/title/harvester",
 							"host": [
 								"{{URL}}"
 							],
 							"path": [
 								"song",
 								"title",
-								"orion"
+								"harvester"
 							]
 						}
 					},
@@ -190,14 +202,14 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "{{URL}}/song/album/load",
+							"raw": "{{URL}}/song/album/magnetic",
 							"host": [
 								"{{URL}}"
 							],
 							"path": [
 								"song",
 								"album",
-								"load"
+								"magnetic"
 							]
 						}
 					},

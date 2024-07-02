@@ -10,9 +10,13 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const database_js_1 = require("../config/database.js");
-function getAll() {
+function getAll(page) {
     return __awaiter(this, void 0, void 0, function* () {
+        const resultsPerPage = 3;
+        const skip = (page - 1) * resultsPerPage;
         return database_js_1.prisma.album.findMany({
+            skip: skip,
+            take: resultsPerPage,
             include: {
                 tracks: {
                     select: {
@@ -88,10 +92,17 @@ function getByTitle(name) {
         });
     });
 }
+function checkNumberOfEntries() {
+    return __awaiter(this, void 0, void 0, function* () {
+        const result = yield database_js_1.prisma.album.count();
+        return result;
+    });
+}
 const albumRepository = {
     getAll,
     getById,
     getByTitle,
+    checkNumberOfEntries,
 };
 exports.default = albumRepository;
 //# sourceMappingURL=album.repository.js.map

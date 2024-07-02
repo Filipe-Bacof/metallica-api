@@ -19,11 +19,29 @@ exports.getSongsByAlbumTitle = getSongsByAlbumTitle;
 exports.getRandomSong = getRandomSong;
 const song_service_1 = __importDefault(require("../services/song.service"));
 const stringFunctions_1 = require("../utils/stringFunctions");
-function getAllSongs(_req, res) {
+const urlFunctions_1 = require("../utils/urlFunctions");
+function getAllSongs(req, res) {
     return __awaiter(this, void 0, void 0, function* () {
+        const page = req.query.page;
+        if (page && !(0, stringFunctions_1.validateNumericString)(page)) {
+            return res
+                .status(400)
+                .send({ message: "The provided page cannot contain letters." });
+        }
+        const pageNumber = page ? Number(page) : 1;
+        const totalEntries = yield song_service_1.default.checkNumberOfEntries();
+        const totalPages = (0, urlFunctions_1.calculateTotalPages)(totalEntries, 5);
+        if (pageNumber && !(0, urlFunctions_1.isPageParamNumberValid)(pageNumber, totalPages)) {
+            return res
+                .status(400)
+                .send({ message: "The provided page number doesn't exist." });
+        }
         try {
-            const result = yield song_service_1.default.getAll();
-            res.status(200).send(result);
+            const result = yield song_service_1.default.getAll(pageNumber);
+            res.status(200).send({
+                navigation: (0, urlFunctions_1.generateUrlPrevAndNext)("song", pageNumber, totalPages),
+                data: result,
+            });
         }
         catch (error) {
             res.status(500).send({ message: "Error fetching songs." });

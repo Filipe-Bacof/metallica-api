@@ -1,7 +1,12 @@
 import { prisma } from "../config/database.js";
 
-async function getAll() {
+async function getAll(page: number) {
+  const resultsPerPage = 5;
+  const skip = (page - 1) * resultsPerPage;
+
   return prisma.song.findMany({
+    skip: skip,
+    take: resultsPerPage,
     select: {
       id: true,
       title: true,
@@ -51,7 +56,7 @@ async function getSongsByAlbumId(id: number) {
 }
 
 async function getRandomSong() {
-  const totalSongs = await prisma.song.count();
+  const totalSongs = await checkNumberOfEntries();
 
   const randomId = Math.floor(Math.random() * totalSongs) + 1;
 
@@ -66,12 +71,18 @@ async function getRandomSong() {
   });
 }
 
+async function checkNumberOfEntries(): Promise<number> {
+  const result = await prisma.song.count();
+  return result;
+}
+
 const songRepository = {
   getAll,
   getById,
   getByTitle,
   getSongsByAlbumId,
   getRandomSong,
+  checkNumberOfEntries,
 };
 
 export default songRepository;

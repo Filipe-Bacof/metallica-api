@@ -29,18 +29,18 @@ filipebacof@gmail.com
 
 - Esse projeto será atualizado eventualmente e algumas coisas já serão implementadas em breve, tais como
 - [x] Seeder para inicialização do banco de dados.
-- [ ] Paginação de resultados de alguns endpoints.
+- [x] Paginação de resultados de alguns endpoints.
 - [ ] Endpoints para realizar operações CRUD, obviamente com autenticação.
 
 ## Sobre o deploy
 
 - Atualmente o deploy está feito na [Render](https://render.com/) e o único servidor gratuito deles é nos Estados Unidos, dessa forma pode ocorrer um pequeno delay na primeira requisição, você pode testar o endpoint `/` que deve retornar `Let's Rock! 🤘😎🔥`.
 - URL Base para consumo da API: `https://metallica-api.onrender.com`
-- [Clique aqui](https://metallica-api.onrender.com/) para testar
+- [Clique aqui](https://metallica-api.onrender.com/) para testar.
 
 ## Documentação dos endpoints
 
-- Você pode acessar o arquivo exportado do postman chamado `Metallica API.postman_collection.json` ou acessar algum desses links:
+- Você pode acessar o [arquivo exportado do postman](https://github.com/Filipe-Bacof/metallica-api/blob/main/Metallica%20API.postman_collection.json) chamado `Metallica API.postman_collection.json` ou acessar algum desses links:
 - [Documentação em inglês](https://github.com/Filipe-Bacof/metallica-api/blob/main/Documentation.md)
 - [Documentação em português](https://github.com/Filipe-Bacof/metallica-api/blob/main/Documentação.md)
 
