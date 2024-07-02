@@ -1,5 +1,9 @@
 # Documentação Metallica API
 
+## Tipagens para o Frontend
+
+- Caso você opte por realizar o frontend usando algum framework com typescript, eu criei o [arquivo Frontend.interface.ts](https://github.com/Filipe-Bacof/metallica-api/blob/main/src/interfaces/Frontend.interface.ts) que possui todas as interfaces necessárias já exportadas para você usar na sua aplicação.
+
 ## URL Base
 
 ```

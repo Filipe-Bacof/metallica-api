@@ -64,3 +64,7 @@ DATABASE_URL="postgres://user:password@host:port/dbname?sslmode=require&connecti
 - Com o banco de dados configurado e a string de conexão definida, você pode rodar `npx prisma generate` para aplicar as migrações.
 - Com isso feito você já pode executar o script de seed para popular o banco com os dados de produção com o comando `npx prisma db seed`
 - Vale ressaltar que eu deixei no topo do arquivo de seed algumas constantes que mostram logs após as inserções, fique a vontade para modificar os valores para `true` e visualizar no seu terminal as inserções.
+
+## Tipagens para o Front-End
+
+- Caso você opte por realizar o frontend usando algum framework com typescript, eu criei o [arquivo Frontend.interface.ts](https://github.com/Filipe-Bacof/metallica-api/blob/main/src/interfaces/Frontend.interface.ts) que possui todas as interfaces necessárias já exportadas para você usar na sua aplicação.

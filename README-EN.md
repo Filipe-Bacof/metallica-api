@@ -62,3 +62,7 @@ DATABASE_URL="postgres://user:password@host:port/dbname?sslmode=require&connecti
 - With the database configured and the connection string defined, you can run `npx prisma generate` to apply the migrations.
 - With this done, you can now run the seed script to populate the database with production data with the command `npx prisma db seed`
 - It is worth mentioning that I left at the top of the seed file some constants that show logs after the insertions, feel free to change the values ​​to `true` and view the insertions in your terminal.
+
+## Types for Front-End
+
+- If you choose to perform the frontend using a typescript framework, I created the [Frontend.interface.ts file](https://github.com/Filipe-Bacof/metallica-api/blob/main/src/interfaces/Frontend.interface.ts) which has all the necessary interfaces already exported for you to use in your application.
