@@ -30,7 +30,9 @@ filipebacof@gmail.com
 - Esse projeto será atualizado eventualmente e algumas coisas já serão implementadas em breve, tais como
 - [x] Seeder para inicialização do banco de dados.
 - [x] Paginação de resultados de alguns endpoints.
+- [ ] Fotos dos membros da banda.
 - [ ] Endpoints para realizar operações CRUD, obviamente com autenticação.
+- [ ] Links para iframes (incorporar).
 
 ## Sobre o deploy
 

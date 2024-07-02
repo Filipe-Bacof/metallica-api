@@ -28,7 +28,9 @@ filipebacof@gmail.com
 - This project will be updated eventually and some things will be implemented soon, such as
 - [x] Seeder for database initialization.
 - [x] Pagination of results for some endpoints.
+- [ ] Photos of band members.
 - [ ] Endpoints to perform CRUD operations, obviously with authentication.
+- [ ] Links to iframes (embed).
 
 ## About deployment
 

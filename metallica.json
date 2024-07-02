@@ -8,7 +8,9 @@
       "deathDate": null,
       "memberSince": "1982/03/14",
       "bandDepartureDate": null,
-      "instagram": "https://www.instagram.com/papa.het_/"
+      "instagram": "https://www.instagram.com/papa.het_/",
+      "photo-horizontal": "https://raw.githubusercontent.com/Filipe-Bacof/metallica-api/main/public/members/james-w.jpg",
+      "photo-vertical": "https://raw.githubusercontent.com/Filipe-Bacof/metallica-api/main/public/members/james-h.jpg"
     },
     {
       "id": 2,
@@ -18,7 +20,9 @@
       "deathDate": null,
       "memberSince": "1982/03/14",
       "bandDepartureDate": null,
-      "instagram": "https://www.instagram.com/larsulrich/"
+      "instagram": "https://www.instagram.com/larsulrich/",
+      "photo-horizontal": "https://raw.githubusercontent.com/Filipe-Bacof/metallica-api/main/public/members/lars-w.jpg",
+      "photo-vertical": "https://raw.githubusercontent.com/Filipe-Bacof/metallica-api/main/public/members/lars-h.jpg"
     },
     {
       "id": 3,
@@ -28,7 +32,9 @@
       "deathDate": null,
       "memberSince": "1983/04/16",
       "bandDepartureDate": null,
-      "instagram": "https://www.instagram.com/kirkhammett/"
+      "instagram": "https://www.instagram.com/kirkhammett/",
+      "photo-horizontal": "https://raw.githubusercontent.com/Filipe-Bacof/metallica-api/main/public/members/kirk-w.jpg",
+      "photo-vertical": "https://raw.githubusercontent.com/Filipe-Bacof/metallica-api/main/public/members/kirk-h.jpg"
     },
     {
       "id": 4,
@@ -38,7 +44,9 @@
       "deathDate": null,
       "memberSince": "2003/06/05",
       "bandDepartureDate": null,
-      "instagram": "https://www.instagram.com/robtrujillo/"
+      "instagram": "https://www.instagram.com/robtrujillo/",
+      "photo-horizontal": "https://raw.githubusercontent.com/Filipe-Bacof/metallica-api/main/public/members/trujillo-w.jpg",
+      "photo-vertical": "https://raw.githubusercontent.com/Filipe-Bacof/metallica-api/main/public/members/trujillo-h.jpg"
     },
     {
       "id": 5,
@@ -48,7 +56,9 @@
       "deathDate": null,
       "memberSince": "1986/11/08",
       "bandDepartureDate": "2001/01/17",
-      "instagram": "https://www.instagram.com/newsted21/"
+      "instagram": "https://www.instagram.com/newsted21/",
+      "photo-horizontal": "https://raw.githubusercontent.com/Filipe-Bacof/metallica-api/main/public/members/jason-w.jpg",
+      "photo-vertical": "https://raw.githubusercontent.com/Filipe-Bacof/metallica-api/main/public/members/jason-h.jpg"
     },
     {
       "id": 6,
@@ -58,7 +68,9 @@
       "deathDate": "1986/09/27",
       "memberSince": "1984/12/14",
       "bandDepartureDate": "1986/09/26",
-      "instagram": "https://www.instagram.com/explore/locations/257546413/cliff-burton-memorial/"
+      "instagram": "https://www.instagram.com/explore/locations/257546413/cliff-burton-memorial/",
+      "photo-horizontal": "https://raw.githubusercontent.com/Filipe-Bacof/metallica-api/main/public/members/cliff-w.jpg",
+      "photo-vertical": "https://raw.githubusercontent.com/Filipe-Bacof/metallica-api/main/public/members/cliff-h.jpg"
     },
     {
       "id": 7,
@@ -68,7 +80,9 @@
       "deathDate": null,
       "memberSince": "1982/03/14",
       "bandDepartureDate": "1982/11/30",
-      "instagram": "https://www.instagram.com/explore/tags/ronmcgovney/"
+      "instagram": "https://www.instagram.com/explore/tags/ronmcgovney/",
+      "photo-horizontal": "https://raw.githubusercontent.com/Filipe-Bacof/metallica-api/main/public/members/mcgovney-w.jpg",
+      "photo-vertical": "https://raw.githubusercontent.com/Filipe-Bacof/metallica-api/main/public/members/mcgovney-h.jpg"
     },
     {
       "id": 8,
@@ -78,7 +92,9 @@
       "deathDate": null,
       "memberSince": "1982/03/14",
       "bandDepartureDate": "1983/04/11",
-      "instagram": "https://www.instagram.com/davemustaine/"
+      "instagram": "https://www.instagram.com/davemustaine/",
+      "photo-horizontal": "https://raw.githubusercontent.com/Filipe-Bacof/metallica-api/main/public/members/mustaine-w.jpg",
+      "photo-vertical": "https://raw.githubusercontent.com/Filipe-Bacof/metallica-api/main/public/members/mustaine-h.jpg"
     },
     {
       "id": 9,
@@ -88,14 +104,16 @@
       "deathDate": "2013/10/27",
       "memberSince": "2009/10/30",
       "bandDepartureDate": "2011/11/01",
-      "instagram": "https://www.instagram.com/loureedofficial/"
+      "instagram": "https://www.instagram.com/loureedofficial/",
+      "photo-horizontal": "https://raw.githubusercontent.com/Filipe-Bacof/metallica-api/main/public/members/reed-w.jpg",
+      "photo-vertical": "https://raw.githubusercontent.com/Filipe-Bacof/metallica-api/main/public/members/reed-h.jpg"
     }
   ],
   "albuns": [
     {
       "id": 1,
       "title": "Kill 'Em All",
-      "albumCover": "https://i.scdn.co/image/ab67616d0000b27320292e6cce666a69ba5a86fb",
+      "albumCover": "https://raw.githubusercontent.com/Filipe-Bacof/metallica-api/main/public/albuns/killemall.jpg",
       "spotifyURL": "https://open.spotify.com/intl-pt/album/1aGapZGHBovnmhwqVNI6JZ",
       "releaseDate": "1983/07/25",
       "duration": 3078,
@@ -246,7 +264,7 @@
     {
       "id": 2,
       "title": "Ride the Lightning",
-      "albumCover": "https://i.scdn.co/image/ab67616d0000b273b273e0a4432dbcff6df50e05",
+      "albumCover": "https://raw.githubusercontent.com/Filipe-Bacof/metallica-api/main/public/albuns/ridethelightning.jpg",
       "spotifyURL": "https://open.spotify.com/intl-pt/album/05DePtm7oQMdL3Uzw2Jmsc",
       "releaseDate": "1984/07/27",
       "duration": 2845,
@@ -379,7 +397,7 @@
     {
       "id": 3,
       "title": "Master of Puppets",
-      "albumCover": "https://i.scdn.co/image/ab67616d0000b273668e3aca3167e6e569a9aa20",
+      "albumCover": "https://raw.githubusercontent.com/Filipe-Bacof/metallica-api/main/public/albuns/masterofpuppets.jpg",
       "spotifyURL": "https://open.spotify.com/intl-pt/album/2Lq2qX3hYhiuPckC8Flj21",
       "releaseDate": "1986/03/03",
       "duration": 3286,
@@ -507,7 +525,7 @@
     {
       "id": 4,
       "title": "...And Justice for All",
-      "albumCover": "https://i.scdn.co/image/ab67616d0000b2737c05e69390ab7c628a83cee7",
+      "albumCover": "https://raw.githubusercontent.com/Filipe-Bacof/metallica-api/main/public/albuns/andjusticeforall.jpg",
       "spotifyURL": "https://open.spotify.com/intl-pt/album/6jZ1z25PyF4Yd3kHxt9rl1",
       "releaseDate": "1988/09/07",
       "duration": 3934,
@@ -646,7 +664,7 @@
     {
       "id": 5,
       "title": "Metallica Black Album",
-      "albumCover": "https://i.scdn.co/image/ab67616d0000b2731f9edf15e43f4c2f4938b869",
+      "albumCover": "https://raw.githubusercontent.com/Filipe-Bacof/metallica-api/main/public/albuns/blackalbum.jpg",
       "spotifyURL": "https://open.spotify.com/intl-pt/album/3dck2tBxGfxj9m3CguDgjb",
       "releaseDate": "1991/08/12",
       "duration": 3751,
@@ -823,7 +841,7 @@
     {
       "id": 6,
       "title": "Load",
-      "albumCover": "https://i.scdn.co/image/ab67616d0000b2730a3eb7ef6df5732fc6fa77ec",
+      "albumCover": "https://raw.githubusercontent.com/Filipe-Bacof/metallica-api/main/public/albuns/load.jpg",
       "spotifyURL": "https://open.spotify.com/intl-pt/album/6ndH0UlQbyCOVqByMXXhdV",
       "releaseDate": "1996/06/04",
       "duration": 4739,
@@ -1028,7 +1046,7 @@
     {
       "id": 7,
       "title": "Reload",
-      "albumCover": "https://i.scdn.co/image/ab67616d0000b273a49eff6d64cafc2551553380",
+      "albumCover": "https://raw.githubusercontent.com/Filipe-Bacof/metallica-api/main/public/albuns/reload.jpg",
       "spotifyURL": "https://open.spotify.com/intl-pt/album/0Ip2GlQPoAIgdkqCO2YkMa",
       "releaseDate": "1997/11/18",
       "duration": 4556,
@@ -1220,7 +1238,7 @@
     {
       "id": 8,
       "title": "Garage Inc.",
-      "albumCover": "https://i.scdn.co/image/ab67616d0000b2732873f7b94ddd51a1f206ba65",
+      "albumCover": "https://raw.githubusercontent.com/Filipe-Bacof/metallica-api/main/public/albuns/garageinc.jpg",
       "spotifyURL": "https://open.spotify.com/intl-pt/album/0vshXZYhBkbIoqxyC2fXcF",
       "releaseDate": "1998/11/24",
       "duration": 8191,
@@ -1641,7 +1659,7 @@
     {
       "id": 9,
       "title": "St. Anger",
-      "albumCover": "https://i.scdn.co/image/ab67616d0000b273ee5869b2880109918fc47199",
+      "albumCover": "https://raw.githubusercontent.com/Filipe-Bacof/metallica-api/main/public/albuns/stanger.jpg",
       "spotifyURL": "https://open.spotify.com/intl-pt/album/0HKpzK9ZoJ0oVA43E5gewM",
       "releaseDate": "2003/06/05",
       "duration": 4908,
@@ -1800,7 +1818,7 @@
     {
       "id": 10,
       "title": "Death Magnetic",
-      "albumCover": "https://i.scdn.co/image/ab67616d0000b273dfe44d577f07e08564ec73ed",
+      "albumCover": "https://raw.githubusercontent.com/Filipe-Bacof/metallica-api/main/public/albuns/deathmagnetic.jpg",
       "spotifyURL": "https://open.spotify.com/intl-pt/album/3bK58rVcWBh3V3vxMLzi0V",
       "releaseDate": "2008/09/12",
       "duration": 4481,
@@ -1966,7 +1984,7 @@
     {
       "id": 11,
       "title": "Lulu",
-      "albumCover": "https://i.scdn.co/image/ab67616d0000b273bf3f45395f620f8bbf98d919",
+      "albumCover": "https://raw.githubusercontent.com/Filipe-Bacof/metallica-api/main/public/albuns/lulu.jpg",
       "spotifyURL": "https://open.spotify.com/intl-pt/album/3a1SJd8obHju43McHQew7J",
       "releaseDate": "2011/11/01",
       "duration": 5229,
@@ -2143,7 +2161,7 @@
     {
       "id": 12,
       "title": "Beyond Magnetic",
-      "albumCover": "https://i.scdn.co/image/ab67616d0000b273702cd0315b57c5c25690bc58",
+      "albumCover": "https://raw.githubusercontent.com/Filipe-Bacof/metallica-api/main/public/albuns/beyondmagnetic.jpg",
       "spotifyURL": "https://open.spotify.com/intl-pt/album/6umaXKrRVHRgUH7nsxM9eg",
       "releaseDate": "2011/12/13",
       "duration": 1748,
@@ -2215,7 +2233,7 @@
     {
       "id": 13,
       "title": "Hardwired... to Self-Destruct",
-      "albumCover": "https://i.scdn.co/image/ab67616d0000b273f2651ad6c2b8c509055f410e",
+      "albumCover": "https://raw.githubusercontent.com/Filipe-Bacof/metallica-api/main/public/albuns/hardwiredtoselfdestruct.jpg",
       "spotifyURL": "https://open.spotify.com/intl-pt/album/4bcUiX49wpmDRhrC8TvDWV",
       "releaseDate": "2016/06/18",
       "duration": 6606,
@@ -2455,7 +2473,7 @@
     {
       "id": 14,
       "title": "72 Seasons",
-      "albumCover": "https://i.scdn.co/image/ab67616d0000b273e9c415cdc78d53b9b8627274",
+      "albumCover": "https://raw.githubusercontent.com/Filipe-Bacof/metallica-api/main/public/albuns/72seasons.jpg",
       "spotifyURL": "https://open.spotify.com/intl-pt/album/6UwjRSX9RQyNgJ3LwYhr9i",
       "releaseDate": "2023/04/14",
       "duration": 4630,
