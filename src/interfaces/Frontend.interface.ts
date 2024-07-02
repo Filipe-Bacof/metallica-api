@@ -23,7 +23,7 @@ interface SongMedium extends SongBase {
   duration: number;
   lyrics: string;
   spotifyURL: string;
-  officialMusicVideo: string;
+  officialMusicVideo: string | null;
 }
 
 interface Song extends SongMedium {
